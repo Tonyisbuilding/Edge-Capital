@@ -73,12 +73,12 @@ export const whyEdgeCapitalDataDutch: whyEdgeCapitalType[] = [
   {
     icon: images.landingPage.access,
     title: "Persoonlijk en toegankelijk",
-    desc: "Edge Capital is een onderneming met een klein team van specialisten. Wij hechten heel veel waarde aan een persoonlijke relatie met onze klanten en wij willen onze klanten ook echt kennen. Bij Edge Capital bent u geen nummer maar een partner in het beleggingsproces.",
+    desc: "Edge Capital is een onderneming met een klein team van specialisten. Wij hechten heel veel waarde aan een persoonlijke relatie met Onze klanten en wij willen Onze klanten ook echt kennen. Bij Edge Capital bent u geen nummer maar een partner in het beleggingsproces.",
     id: 3,
   },
   {
     icon: images.landingPage.handshake,
-    title: "Betrouwbaarheid Voorop",
+    title: "Betrouwbaarheid voorop",
     desc: "Vertrouwen is onze prioriteit. We hanteren strikte afspraken en werken met externe adviseurs om onze methodes te verfijnen. Dit garandeert verantwoording, transparantie en langdurige relaties gebaseerd op betrouwbaarheid.",
     id: 4,
   },

@@ -9,20 +9,19 @@ const EdgeCareHero = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden md:mt-[5rem]">
       {/* Background Video Layer */}
-      <div className="absolute top-0 left-0 z-0">
-        <video
-          className="w-full h-screen md:h-full object-cover"
-          src={images.csr.csrvid}
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-          poster={images.edgeCare.edgecarehero}
-        />
-        {/* <div className="absolute  bg-black bg-opacity-50" />
-        <div className="absolute  bg-gradient-to-b from-transparent to-black opacity-50" /> */}
-      </div>
+      {/* Background Video Layer */}
+<div className="absolute inset-0 z-0">
+  <video
+    className="w-full h-full object-cover "
+    src={images.csr.csrvid}
+    autoPlay
+    loop
+    muted
+    playsInline
+    preload="auto"
+  />
+</div>
+
 
       {/* Content Layer */}
       <div
@@ -31,7 +30,7 @@ const EdgeCareHero = () => {
       >
         <div className="max-w-4xl text-center">
           <motion.h1
-            className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 mt-[50%] "
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -59,7 +58,7 @@ const EdgeCareHero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <motion.button
+            {/* <motion.button
               className="px-8 py-3 bg-teal-600 text-white rounded-4xl text-sm md:text-base font-medium transition duration-300 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"
               whileHover={{
                 scale: 1.05,
@@ -69,7 +68,7 @@ const EdgeCareHero = () => {
               aria-label="Partner with Edge Capital"
             >
               <a href="mailto:info@edge-capital.nl">{ language === 'nl' ? 'Werk met ons samen' : 'Partner With Us'}</a>
-            </motion.button>
+            </motion.button> */}
           </motion.div>
         </div>
       </div>

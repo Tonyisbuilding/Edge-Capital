@@ -63,7 +63,7 @@ const PrinciplesSection: React.FC = () => {
     },
     nl: {
       subheader: "Edge Capital Principes",
-      header: "5 Principes Die Ons Succes Aandrijven",
+      header: "5 Principes die ons succes aandrijven",
       principles: [
         {
           id: 1,
@@ -74,30 +74,30 @@ const PrinciplesSection: React.FC = () => {
         },
         {
           id: 2,
-          title: "Dynamische Delta-Hedging",
+          title: "Dynamische delta-hedging",
           description:
             "Delta-hedging wordt dynamisch aangepast op basis van marktvolatiliteit, ondersteund door parameters die zijn verbeterd met machine learning. Dit stelt ons in staat om optimaal risicobeheer te handhaven onder alle marktomstandigheden.",
           icon: <Scale className="w-12 h-12 text-[#000D14]" />,
         },
         {
           id: 3,
-          title: "Bewezen Prestaties",
+          title: "Bewezen prestaties",
           description:
             "De strategie toont een gemiddelde verwachte dagelijkse bruto-opbrengst van 0,18% (voor commissies) en netto 0,12% (na kosten). De win-ratio, berekend als de verhouding tussen winstgevende en verlieslatende dagen, is 1,82 netto en 2,41 bruto.",
           icon: <Award className="w-12 h-12 text-[#000D14]" />,
         },
         {
           id: 4,
-          title: "Risicobeheer & Schaalbaarheid",
+          title: "Risicobeheer & schaalbaarheid",
           description:
             "Door uitsluitend 0DTE-opties te gebruiken op de S&P 500 en Nasdaq vermijden we risico’s van posities ‘overnight’. Bovendien biedt ons model een hoge schaalbaarheid tot €100 miljoen, zonder in te leveren op efficiëntie of prestaties.",
           icon: <BarChart2 className="w-12 h-12 text-[#000D14]" />,
         },
         {
           id: 5,
-          title: "Samenwerking op Institutioneel Niveau",
+          title: "Samenwerking op institutioneel niveau",
           description:
-            "We bieden flexibele samenwerkingsopties via directe fondsdeelname of op maat gemaakte SaaS-oplossingen, waardoor verschillende soorten beleggers kunnen profiteren van onze strategieën.",
+            "We bieden flexibele samenwerkingsopties via Directe fondsdeelname of op maat gemaakte SaaS-oplossingen, waardoor verschillende soorten beleggers kunnen profiteren van onze strategieën.",
           icon: <Users className="w-12 h-12 text-[#000D14]" />,
         },
       ],

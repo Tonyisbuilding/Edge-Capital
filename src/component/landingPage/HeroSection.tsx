@@ -10,7 +10,7 @@ const HeroSection = () => {
     <>
       {/* bg-[#EEF4F5] */}
       <section className="hero bg-[#EEF4F5]  mt-[4rem] md:h-[100vh] md:max-h-[700px]">
-        <div className="container hero-container">
+        <div className="container hero-container pt-[44px] sm:pt-0">
           <div className="hero-content">
             
             <h1 className="hero-title">

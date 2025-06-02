@@ -111,8 +111,25 @@ const Navbar = () => {
   };
 
   return (
+
+       <>
+      {/* AFM Warning Banner */}
+      <div className="fixed top-0 left-0 w-full bg-[#256D7B] text-white text-center px-4 py-2 z-[9999] flex justify-center items-center gap-2">
+       <p className="text-[10px] sm:text-sm leading-snug max-w-[90%] text-white">
+  {language === "nl"
+    ? "Let op! U belegt buiten toezicht van de AFM (Autoriteit Financiële Markten). Voor deze activiteit geldt geen vergunnings- of prospectusplicht."
+    : "Attention! You are investing outside the supervision of the AFM (Authority for the Financial Markets). There is no requirement for licensing or prospectus for this activity."}
+</p>
+
+        <img
+          src={images.landingPage.Afm_disclaimer}
+          alt="AFM Notice Icon"
+          className="h-4 sm:h-5"
+        />
+      </div>
+
     <nav
-      className={`fixed top-0 w-full bg-[#eef4f5cc] backdrop-blur-md border-b
+      className={`fixed top-[45px] sm:top-[30px] w-full bg-[#eef4f5cc] backdrop-blur-md border-b
      border-white z-50 ${isScrolled ? "shadow-md" : ""}`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center py-4">
@@ -558,6 +575,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+        </>
+
   );
 };
 

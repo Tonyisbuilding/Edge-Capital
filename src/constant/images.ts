@@ -12,6 +12,8 @@ import Second from "../../src/assets/images/landingPage/Second.png";
 import Third from "../../src/assets/images/landingPage/Third_logo.png";
 import Forth from "../../src/assets/images/landingPage/fourth_logo.png";
 import Logo_five from "../../src/assets/images/landingPage/Logo_five.png";
+import Afm_disclaimer from "../../src/assets/images/landingPage/Afm_disclaimer.png";
+
 
 // import Numberfive from "../../src/assets/images/landingPage/Numberfive.png";
 
@@ -20,7 +22,7 @@ import Logo_five from "../../src/assets/images/landingPage/Logo_five.png";
 
 
 import B_class from "../../src/assets/images/landingPage/class.png";
-import heroSectionVideo from "../../src/assets/images/landingPage/Home-left.mp4";
+import heroSectionVideo from "../../src/assets/images/landingPage/New hero animation.mp4";
 import management from "../../src/assets/images/landingPage/management.svg";
 import handshake from "../../src/assets/images/landingPage/handshake.png";
 import schedule from "../../src/assets/images/landingPage/schedule.png";
@@ -158,6 +160,7 @@ const images = {
         profit,
         heroSectionVideo, 
         New_Cap,
+        Afm_disclaimer,
         Brush
     },
     about:{

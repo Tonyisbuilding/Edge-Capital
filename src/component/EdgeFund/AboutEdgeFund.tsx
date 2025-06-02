@@ -27,7 +27,7 @@ const AboutEdgeFund = () => {
   const content = translations[language] || translations.en;
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-0 py-16 md:py-16 md:mt-[5rem] mt-[3rem]">
+    <section className="w-full max-w-7xl mx-auto px-0 py-16 md:py-16 md:mt-[7rem] mt-[4rem]">
       <motion.div
         className="flex flex-col md:flex-row gap-8 md:gap-3 overflow-hidden"
         initial={{ opacity: 0, y: 20 }}
@@ -41,10 +41,21 @@ const AboutEdgeFund = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            <h2 className="text-3xl font-semibold md:text-[35px] text-[20.86px] text-gray-900 mb-4">
+            <h2
+              className="relative font-bold text-gray-900 mb-2 
+             text-[30.86px] md:text-[35px] inline-block"
+              style={{
+                backgroundImage: `url(${images.landingPage.Brush})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "0 100%",
+                backgroundSize: "contain",
+                paddingBottom: "0.5rem",
+              }}
+            >
               {content.title}
             </h2>
-            <div className="w-24 h-[1.2px] bg-yellow-400 mb-6"></div>
+
+            {/* <div className="w-24 h-[1.2px] bg-yellow-400 mb-6"></div> */}
 
             <p className="text-gray-800 mb-8 inter font-medium md:text-[20px] text-[14.91px]">
               {content.description}
@@ -57,7 +68,7 @@ const AboutEdgeFund = () => {
               <motion.button
                 className="bg-[#206A7C] text-white px-8 py-3 rounded-full 
                 shadow-[0_4px_10px_rgba(32,106,124,0.3)] hover:shadow-[0_8px_20px_rgba(32,106,124,0.45)] 
-                hover:bg-[#206A7C] transition-all duration-300"                
+                hover:bg-[#206A7C] transition-all duration-300"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
               >

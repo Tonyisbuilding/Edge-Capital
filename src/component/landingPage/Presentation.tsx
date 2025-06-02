@@ -188,7 +188,7 @@ const Presentation = () => {
           mb-4 sm:mb-5 tracking-tight"
           >
             {language === "nl"
-              ? "Vraag uw Exclusieve Presentatie aan"
+              ? "Vraag uw exclusieve presentatie aan"
               : "Secure Your Exclusive Presentation"}
           </h2>
           <p className="text-[#64748b] mb-6 sm:mb-7 md:mb-8 text-[0.95rem] sm:text-base md:text-[1.05rem]">
@@ -288,7 +288,7 @@ const Presentation = () => {
               </svg>
             </span>
  {language === 'nl'
-    ? 'Beperkte plekken beschikbaar deze maand. Reserveer vandaag nogU sessie.'
+    ? 'Beperkte plekken beschikbaar deze maand. Reserveer vandaag nog uw sessie'
     : 'Limited spots available this month. Reserve your session today.'}          </p>
         </div>
       </div>

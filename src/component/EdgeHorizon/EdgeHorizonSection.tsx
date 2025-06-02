@@ -18,7 +18,7 @@ const EdgeHorizonSection = () => {
           </h2>
           <p className="text-base leading-relaxed text-gray-600 mb-6">
             {language === "nl"
-              ? `Door een transparant en democratisch platform te creëren, willen we zowel ons bedrijf als onze klanten in staat stellen
+              ? `Door een transparant en democratisch platform te creëren, willen we zowel ons bedrijf als Onze klanten in staat stellen
 zinvolle projecten te ondersteunen en
 samen echte verandering teweeg te brengen.`
               : `By creating a transparent and democratic platform, we aim to empower

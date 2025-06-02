@@ -67,7 +67,7 @@ const HeroSection = () => {
                   whileInView="visible"
                 >
                   {language === "nl"
-                    ? "Wij zijn de Toekomst van Institutionele Handel"
+                    ? "Wij zijn de toekomst van Institutionele Handel"
                     : "We are the Future of Institutional Trading"}
                 </motion.h1>
 

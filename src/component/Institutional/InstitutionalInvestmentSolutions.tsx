@@ -40,10 +40,10 @@ const InstitutionalInvestmentSolutions = () => {
       imageAlt: "Research team analyzing market data",
     },
     nl: {
-      title: "Institutionele Beleggingsoplossingen",
+      title: "Institutionele beleggingsoplossingen",
       cards: [
         {
-          title: "Directe Fondsdeelname",
+          title: "Directe fondsdeelname",
           content: [
             "Fondsen met een fund-of-funds-structuur kunnen eenvoudig en rechtstreeks deelnemen aan ons fonds. Hiermee kunt u optimaal profiteren van onze marktneutrale strategie.",
             "Ontworpen voor institutionele cliënten met investeringen vanaf €500.000.",
@@ -60,7 +60,7 @@ const InstitutionalInvestmentSolutions = () => {
           ],
         },
         {
-          title: "Prestatiegerichte Vergoedingsstructuur",
+          title: "Prestatiegerichte vergoedingsstructuur",
           content: [
             "Onze vergoedingsstructuur is ontworpen om onze belangen op één lijn te brengen met die van u. Wij slagen pas als u dat ook doet.",
             "Dit zorgt ervoor dat we gefocust blijven op consistente prestaties, in plaats van simpelweg activa onder beheer op te bouwen.",

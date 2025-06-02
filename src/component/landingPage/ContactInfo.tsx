@@ -29,7 +29,7 @@ const ContactInfo = () => {
         </div>
         <div className="">
           <ContactInput 
-            placeholder="Info@edge-capital.nl"
+            placeholder="info@edge-capital.nl"
             CTAButton={ language === 'nl'? 'Mail ons' : 'Mail Us'}
             icon={images.landingPage.email}
           />

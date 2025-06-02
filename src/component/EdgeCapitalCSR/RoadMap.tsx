@@ -1,6 +1,8 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import RoadmapCard from "./RoadmapCard";
+import images from "@/constant/images";
+
 import { useChangeLanguageContext } from "@/context/ChangeLanguage";
 
 const RoadmapSection = () => {
@@ -78,7 +80,7 @@ const RoadmapSection = () => {
     const updateHeight = () => {
       setViewportHeight(window.innerHeight);
     };
-    
+
     updateHeight();
     window.addEventListener("resize", updateHeight);
     return () => window.removeEventListener("resize", updateHeight);
@@ -92,30 +94,37 @@ const RoadmapSection = () => {
   );
 
   return (
-    <section 
+    <section
       ref={containerRef}
-      id="roadmap" 
+      id="roadmap"
       className="relative py-20 px-4 md:px-8 lg:px-16 min-h-screen flex flex-col items-center justify-start bg-white overflow-hidden"
       aria-labelledby="roadmap-title"
     >
       <div className="max-w-6xl w-full mx-auto">
-        <h2 
-          id="roadmap-title" 
-          className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 relative
-            mx-auto text-black flex justify-center underline"
-        >
-          {content.title}
-          {/* <div className="w-full"> */}
+       <h2
+  id="roadmap-title"
+  className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 text-black"
+>
+  <span
+    className="inline-block relative"
+    style={{
+      backgroundImage: `url(${images.landingPage.Brush})`,
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "0 100%",
+      backgroundSize: "100% 6px",
+      paddingBottom: "0.5rem",
+    }}
+  >
+    {content.title}
+  </span>
+</h2>
 
-          {/* <div className="absolute bottom-0 left-0 w-[30%] h-1 bg-yellow-400 rounded mx-auto"></div> */}
-          {/* </div> */}
-        </h2>
 
         {/* Timeline container */}
         <div className="relative flex flex-col items-center w-full ">
           {/* Animated timeline */}
           <div className="absolute left-[30rem]  top-0 h-full w-px bg-gray-200 transform -translate-x-1/2">
-            <motion.div 
+            <motion.div
               className="w-full bg-black rounded-full"
               style={{ height: lineHeight, originY: 0 }}
               aria-hidden="true"
@@ -132,8 +141,8 @@ const RoadmapSection = () => {
           transform -translate-x-1/2"  />
 
           {roadmapData.map((item, index) => (
-            <div 
-              key={item.id} 
+            <div
+              key={item.id}
               className="w-full flex flex-col md:flex-row items-center mb-24 last:mb-0 "
             >
               {/* Year indicator and milestone - Always on the left */}
@@ -152,9 +161,9 @@ const RoadmapSection = () => {
 
               {/* Card - Always on the right */}
               <div className="w-full md:w-1/2 md:pl-8">
-                <RoadmapCard 
-                  number={item.id} 
-                  title={item.title} 
+                <RoadmapCard
+                  number={item.id}
+                  title={item.title}
                   content={item.content}
                   index={index}
                 />

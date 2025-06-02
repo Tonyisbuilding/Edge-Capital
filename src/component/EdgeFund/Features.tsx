@@ -150,7 +150,7 @@ const Feature = () => {
           },
           {
             title: 'Veilige bewaring',
-            description: 'Edge Capital EdgeFund Custody Foundation zorgt voor activaveiligheid'
+            description: 'Stichting bewaring Edge Capital EdgeFund zorgt voor activaveiligheid'
           },
           {
             title: 'Bank',

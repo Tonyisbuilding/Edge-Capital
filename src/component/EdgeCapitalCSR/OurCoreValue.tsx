@@ -2,10 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Recycle, BookOpen, Users, Rocket, Shield } from 'lucide-react';
 import { useChangeLanguageContext } from "@/context/ChangeLanguage";
+import images from "@/constant/images";
+
 
 const OurCoreValues = () => {
   const { language } = useChangeLanguageContext();
-  
+
   const translations = {
     en: {
       title: "Our Core Values",
@@ -66,7 +68,7 @@ const OurCoreValues = () => {
         {
           title: "Innovatie",
           icon: <Rocket size={32} className='text-[#192227]' />,
-          description: "Wij omarmen innovatie als een middel om duurzame oplossingen te ontwikkelen en onze impact te vergroten. Door gebruik te maken van geavanceerde technologieën en methoden, verbeteren we onze processen en de diensten die we aan onze klanten aanbieden.",
+          description: "Wij omarmen innovatie als een middel om duurzame oplossingen te ontwikkelen en onze impact te vergroten. Door gebruik te maken van geavanceerde technologieën en methoden, verbeteren we onze processen en de diensten die we aan Onze klanten aanbieden.",
           measures: "Maatregelen: Diversificatie over de grootste en veiligste beurzen."
         },
         {
@@ -78,7 +80,7 @@ const OurCoreValues = () => {
       ]
     }
   };
-  
+
   // Get the appropriate content based on language
   const content = translations[language] || translations.en;
 
@@ -110,17 +112,37 @@ const OurCoreValues = () => {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 
-            id="core-values-title" 
-            className="text-3xl md:text-4xl font-bold text-gray-800 inline-block relative"
+          <h2
+            id="core-values-title"
+            className="text-3xl md:text-5xl font-bold text-gray-800 inline-block relative"
+            style={{
+              backgroundImage: `url(${images.landingPage.Brush})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "0 100%",
+              backgroundSize: "contain",
+              paddingBottom: "0.5rem",
+            }}
           >
             {content.title}
-            <div className="absolute bottom-0 left-0 w-full h-1 bg-yellow-400 mt-1"></div>
           </h2>
         </div>
 
+        {/* 
+        <h2
+        className="relative text-5xl font-bold text-gray-900 mb-0 inline-block"
+        style={{
+          backgroundImage: `url(${images.landingPage.Brush})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "0 100%",
+          backgroundSize: "contain",
+          paddingBottom: "0.5rem",
+        }}
+      >
+        {t.title}
+      </h2> */}
+
         {/* Values Grid */}
-        <motion.div 
+        <motion.div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           variants={containerVariants}
           initial="hidden"

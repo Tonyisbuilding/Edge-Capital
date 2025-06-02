@@ -36,11 +36,11 @@ const ResearchDevelopmentSection = () => {
           content: "Grondig onderzoek vormt de basis voor een succesvolle en duurzame handelsstrategie. Wij breiden ons platform continu uit op basis van input uit ons onderzoeksteam.",
         },
         {
-          title: "Machine Learning Integratie",
+          title: "Machine learning integratie",
           content: "Wij passen ons aan nieuwe technologieën aan, zoals machine learning, om handelsparameters te verbeteren en nauwkeuriger te voorspellen.",
         },
         {
-          title: "Eigen Handelsengine",
+          title: "Eigen handelsengine",
           content: "We hebben hedgers ontwikkeld die op meerdere beurzen kunnen opereren — met ongeëvenaarde flexibiliteit en efficiëntie.",
         },
       ],

@@ -60,16 +60,16 @@ const ClientsSection = () => {
     },
     nl: {
       // subheader: "Vertrouwde Partners",
-      header: "Onze Klanten",
+      header: "Onze klanten",
       description: "We bedienen een breed scala aan institutionele klanten met oplossingen op maat.",
       clients: [
         {
-          title: "Hedgefondsen en Vermogensbeheerders",
+          title: "Hedgefondsen en vermogensbeheerders",
           description: "Als u uw strategie wilt diversifiëren of de strategie volledig wilt uitbesteden.",
           icon: TrendingUp,
         },
         {
-          title: "Propriëtaire Handelsbedrijven",
+          title: "Propriëtaire handelsbedrijven",
           description: "Voor prop-handelaren die hun strategie willen verbeteren of diversifiëren.",
           icon: Users,
         },
