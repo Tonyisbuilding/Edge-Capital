@@ -52,7 +52,10 @@ const FlipCard = ({ year, front, back }: historyDataType) => {
         }`}
       >
         <div className="absolute w-full h-full backface-hidden flex flex-col justify-center items-center p-4">
-          <div className="w-[60px] h-[60px] rounded-full border-2 border-[#0E7C84] flex items-center justify-center mb-2">
+          <div
+            className="w-[60px] h-[60px] border-2 border-[#0E7C84] rounded-full flex items-center justify-center mb-2"
+            style={{ lineHeight: "1" }}
+          >
             <span className="text-[#0E7C84] font-bold text-sm leading-none">
               {year}
             </span>
@@ -67,12 +70,13 @@ const FlipCard = ({ year, front, back }: historyDataType) => {
   );
 };
 
-
 export default function OurHistory() {
   return (
     <section className="py-10 bg-gray-100 text-center">
       <h2 className="text-3xl font-bold">Our History</h2>
-      <p className="text-gray-600 mb-6">We're building a platform that gives investors an edge.</p>
+      <p className="text-gray-600 mb-6">
+        We're building a platform that gives investors an edge.
+      </p>
       <div className="flex flex-wrap justify-center">
         {historyData.map((item, index) => (
           <FlipCard key={index} {...item} />
