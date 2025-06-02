@@ -42,10 +42,21 @@ const FlipCard = ({ year, front, back }: historyDataType) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
-    <div className="relative w-full sm:w-1/3 p-4 cursor-pointer" onClick={() => setIsFlipped(!isFlipped)}>
-      <div className={`w-full h-60 bg-blue-100 rounded-lg shadow-lg transition-transform duration-500 transform ${isFlipped ? 'rotate-y-180' : ''}`}>
+    <div
+      className="relative w-full sm:w-1/3 p-4 cursor-pointer"
+      onClick={() => setIsFlipped(!isFlipped)}
+    >
+      <div
+        className={`w-full h-60 bg-blue-100 rounded-lg shadow-lg transition-transform duration-500 transform ${
+          isFlipped ? "rotate-y-180" : ""
+        }`}
+      >
         <div className="absolute w-full h-full backface-hidden flex flex-col justify-center items-center p-4">
-          <h2 className="text-3xl font-bold text-blue-500">{year}</h2>
+          <div className="w-[60px] h-[60px] rounded-full border-2 border-[#0E7C84] flex items-center justify-center mb-2">
+            <span className="text-[#0E7C84] font-bold text-sm leading-none">
+              {year}
+            </span>
+          </div>
           <p className="text-sm mt-2 text-center">{front}</p>
         </div>
         <div className="absolute w-full h-full backface-hidden flex flex-col justify-center items-center p-4 rotate-y-180 bg-blue-200 rounded-lg">
@@ -55,6 +66,7 @@ const FlipCard = ({ year, front, back }: historyDataType) => {
     </div>
   );
 };
+
 
 export default function OurHistory() {
   return (
