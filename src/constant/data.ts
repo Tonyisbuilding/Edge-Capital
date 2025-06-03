@@ -236,15 +236,15 @@ export const teamMembersDutch: teamMemberCardstDataType[] = [
 export const advisoryBoard: teamMemberCardstDataType[] = [
   {
     name: "Henk van der Heijden",
-    position: "Advisor and Chairman of the Trust Bonds Foundation Edge Capital",
+    position: "Advisor and chairman of the trust bonds foundation Edge Capital",
     bio: `Henk van der Heijden has 30+ years of (project) management experience, including 14 at ASML. He holds a BSc in Computer Science and an Executive MBA in Strategic Change Management. Active in crypto and startups, he’s been an investor since 2017, Chairman of the Trust Bonds Foundation since August 2022, and advisor since March 2023.`,
     linkedin: "https://www.linkedin.com/in/mvandrunen/",
     image: images.landingPage.Henk,
   },
   {
     name: "Michiel van Drunen",
-    position: "Member of the Advisory Board",
-    bio: `Since 2024, Michiel van Drunen has been a member of the Advisory Board of Edge Capital.
+    position: "Member of the advisory board",
+    bio: `Since 2024, Michiel van Drunen has been a Member of the advisory board of Edge Capital.
 He has been active in the financial (securities) world since 1988 and has extensive experience as an entrepreneur. He serves on the advisory boards of various companies across different industries and holds several executive positions. He is also involved in various charitable organizations, including serving as a fundraiser for the FoodBank.`,
     linkedin: "https://linkedin.com/in/paullamain",
     image: images.landingPage.Michiel,
@@ -294,21 +294,21 @@ export const SupportAndCommercialDutch: teamMemberCardstDataType[] = [
 export const edgeNextTeam: teamMemberCardstDataType[] = [
   {
     name: "Aron Broeken",
-    position: "General Manager EdgeNext",
+    position: "General manager EdgeNext",
     bio: "Aron Broeken combines vision, leadership, and execution power in his role as General Manager. With years of experience in asset management and trading, he guides the organization toward sustainable growth and scalable operations with strategic insight, decisiveness, and accountability.",
     linkedin: "https://www.linkedin.com/in/aron-broeken-52b876171",
     image: images.landingPage.Aron,
   },
   {
     name: "Pepijn van den Hurk",
-    position: "Head of Finance and Technology EdgeNext",
+    position: "Head of finance and technology EdgeNext",
     bio: "Pepijn van den Hurk plays a central role in shaping the fund’s financial and technological strategy. He oversees financial operations including capital allocation, Risk management, and reporting, while also driving the long-term shift toward scalable, tech-driven processes.",
     linkedin: "",
     image: images.landingPage.Pepijn,
   },
   {
     name: "Tom Meulemans",
-    position: "Head of Relationships and Sales EdgeNext",
+    position: "Head of relationships and sales EdgeNext",
     bio: "Tom Meulemans is responsible for managing relationships and sales for the fund. With a strong commercial background and sharp eye for investor needs, he plays a key role in growing and maintaining the fund’s network. As a main point of contact for (potential) investors, Tom is known for his ability to communicate complex financial topics with clarity. His personal approach and deep market understanding foster long-term partnerships and strong investor trust.",
     linkedin: "",
     image: images.landingPage.Tom,

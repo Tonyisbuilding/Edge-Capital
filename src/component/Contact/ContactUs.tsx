@@ -62,7 +62,7 @@ const ContactInformation = () => {
         hours: "Mon - Fri: 9AM - 6PM",
       },
       form: {
-        title: "Send Us a message",
+        title: "Send us a message",
         description:
           "Fill out the form below and we'll get back to you as soon as possible.",
         firstNameLabel: "First name",

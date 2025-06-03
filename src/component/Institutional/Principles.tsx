@@ -23,7 +23,7 @@ const PrinciplesSection: React.FC = () => {
       principles: [
         {
           id: 1,
-          title: "Volatility premium Strategy",
+          title: "Volatility premium strategy",
           description:
             "Our strategy based on ES (S&P 500) and NQ (Nasdaq) options utilizes a model focused on selling volatility and targets short-term systems. We sell options with 0 days to expiration (DTE) at deltas between 0.1 and 0.3 with an asymmetrical preference for the call side.",
           icon: <TrendingUp className="w-12 h-12 text-[#000D14]" />,

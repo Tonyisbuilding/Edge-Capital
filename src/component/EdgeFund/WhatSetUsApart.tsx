@@ -62,7 +62,7 @@ const WhatSetsUsApart = () => {
           description: "The risk of your order not being fully or not executed at all due to a technical issue.",
           measures: (
             <>
-              <strong>Measures:</strong> Automated Risk management scenarios, 24/7 human monitoring, backups, testing periods.
+              <strong>Measures:</strong> Automated risk management scenarios, 24/7 human monitoring, backups, testing periods.
             </>
           ),
           icon: <Settings size={24} className="text-white" />

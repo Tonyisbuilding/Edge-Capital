@@ -22,7 +22,7 @@ const OurCoreValues = () => {
           title: "Transparency",
           icon: <BookOpen size={32} className='text-[#192227]' />,
           description: "We believe in open communication about our activities and impact. We regularly report on our progress and the outcomes of our CSR initiatives to keep our stakeholders well-informed.",
-          measures: "Measures: Automated Risk management scenarios, 24/7 human monitoring, backups, testing periods."
+          measures: "Measures: Automated risk management scenarios, 24/7 human monitoring, backups, testing periods."
         },
         {
           title: "Social impact",
