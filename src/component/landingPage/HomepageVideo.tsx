@@ -4,7 +4,7 @@ import { useChangeLanguageContext } from "@/context/ChangeLanguage";
 import { ArrowLeft, ArrowRight } from "lucide-react"; // Add this import at the top
 
 
-const videoSources = [images.csr.csrvid, images.csr.csrvid];
+const videoSources = [images.landingPage.EC_businessclass, images.landingPage.EC_businessclass2];
 
 const HomepageVideo = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -45,7 +45,7 @@ const HomepageVideo = () => {
   // Translations
   const translations = {
     en: {
-      title: "EdgeCapital In the Media",
+      title: "EdgeCapital in the media",
       subtitle:
         "Discover how Edge Capital is making headlines — explore media coverage and events that highlight our innovation, strategy, and people.",
       next: "Next",
@@ -93,7 +93,7 @@ const HomepageVideo = () => {
             }`}
           controls={isPlaying}
           preload="metadata"
-          muted
+          // muted
           playsInline
         />
 

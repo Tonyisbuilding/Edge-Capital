@@ -37,7 +37,7 @@ const EdgeCareHero = () => {
           >
             {language === "nl"
               ? "Toegewijd aan het gezamenlijk bouwen van een duurzame toekomst"
-              : "Committed To Building A Sustainable Future Together"}
+              : "Committed to building a sustainable future together"}
           </motion.h1>
 
           <motion.p

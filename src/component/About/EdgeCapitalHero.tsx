@@ -14,7 +14,7 @@ const EdgeCapitalHero = () => {
   // Translation dictionary
   const translations = {
     en: {
-      heading: "Our name is more than just a nod to 'hedge funds.' 'Edge' represents the advantage we provide our clients—staying ahead with strategies based on market facts rather than predictions.",
+      heading: "Our name is more than just a nod to 'hedge funds.' 'Edge' represents the advantage we provide Our clients—staying ahead with strategies based on market facts rather than predictions.",
       subheading: "Our strategies are built on arbitrage methods and market-neutral investing, giving us an edge over traditional wealth management products.",
       getInTouch: "Get in Touch",
       altText: "Edge Capital Team"

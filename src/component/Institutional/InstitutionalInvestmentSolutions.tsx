@@ -9,10 +9,10 @@ const InstitutionalInvestmentSolutions = () => {
   // Define translations for English and Dutch
   const translations = {
     en: {
-      title: "Institutional Investment Solutions",
+      title: "Institutional investment solutions",
       cards: [
         {
-          title: "Direct Fund Participation",
+          title: "Direct fund participation",
           content: [
             "Funds with a fund-of-funds structure can easily and directly participate in our fund. This enables you to fully leverage our market-neutral strategy.",
             "Designed for institutional clients with investments starting from €500,000.",
@@ -21,7 +21,7 @@ const InstitutionalInvestmentSolutions = () => {
           ],
         },
         {
-          title: "API-Based SaaS Solutions",
+          title: "API-based SaaS solutions",
           content: [
             "For funds without a fund-of-funds structure, we offer tailor-made solutions, allowing you to participate for your own account via an API.",
             "This is done through a SaaS agreement (Software as a Service), giving you the flexibility to integrate our strategies within your own fund environment.",
@@ -29,7 +29,7 @@ const InstitutionalInvestmentSolutions = () => {
           ],
         },
         {
-          title: "Performance-Based Fee Structure",
+          title: "Performance-based fee structure",
           content: [
             "Our fee structure is designed to align our interests with yours. We only succeed when you succeed.",
             "This ensures we remain focused on delivering consistent performance rather than simply accumulating assets under management.",
@@ -110,7 +110,7 @@ const InstitutionalInvestmentSolutions = () => {
         initial="hidden"
         animate="visible"
       >
-        {/* Card 1: Direct Fund Participation */}
+        {/* Card 1: Direct fund participation */}
         <motion.div
           className="bg-[#DDE6E9] rounded-lg p-6 shadow-sm"
           variants={cardVariants}
@@ -139,7 +139,7 @@ const InstitutionalInvestmentSolutions = () => {
           </div>
         </motion.div>
 
-        {/* Card 2: API-Based SaaS Solutions */}
+        {/* Card 2: API-based SaaS solutions */}
         <motion.div
           className="bg-[#DDE6E9] rounded-lg p-6 shadow-sm"
           variants={cardVariants}
@@ -167,7 +167,7 @@ const InstitutionalInvestmentSolutions = () => {
           </div>
         </motion.div>
 
-        {/* Card 3: Performance-Based Fee Structure */}
+        {/* Card 3: Performance-based fee structure */}
         <motion.div
           className="bg-[#DDE6E9] rounded-lg p-6 shadow-sm"
           variants={cardVariants}

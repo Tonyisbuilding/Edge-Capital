@@ -31,6 +31,10 @@ import dots_updated from "../../src/assets/images/landingPage/Dot_updated.png";
 
 import presentationPreview from "../../src/assets/images/landingPage/presentationPreview.png";
 import presentationVid from "../../src/assets/images/landingPage/presentation.mp4";
+import EC_businessclass from "../../src/assets/images/landingPage/EC_bussinessclass.mp4";
+import EC_businessclass2 from "../../src/assets/images/landingPage/EC_businessclass2.mp4";
+
+
 import teagan from "../../src/assets/images/landingPage/teagan.png";
 import paul from "../../src/assets/images/landingPage/paul.png";
 import scale from "../../src/assets/images/landingPage/scale.png";
@@ -161,7 +165,9 @@ const images = {
         heroSectionVideo, 
         New_Cap,
         Afm_disclaimer,
-        Brush
+        Brush,
+        EC_businessclass,
+        EC_businessclass2
     },
     about:{
         herosectionforabout,

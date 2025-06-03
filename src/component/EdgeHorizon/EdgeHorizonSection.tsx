@@ -22,7 +22,7 @@ const EdgeHorizonSection = () => {
 zinvolle projecten te ondersteunen en
 samen echte verandering teweeg te brengen.`
               : `By creating a transparent and democratic platform, we aim to empower
-            both our company and our clients to support meaningful projects,
+            both our company and Our clients to support meaningful projects,
             driving real change together.`}
           </p>
           <p className="text-base font-semibold text-orange-500">

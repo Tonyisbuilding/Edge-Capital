@@ -33,7 +33,7 @@ const HeroSection = () => {
 
                 <div className="feature-text">
                   <p>
-                    <span className="bold-text">{language === 'nl' ? 'Geavanceerde Strategieën' : 'Advanced Strategies'}</span> -
+                    <span className="bold-text">{language === 'nl' ? 'Geavanceerde strategieën' : 'Advanced Strategies'}</span> -
                     {language === 'nl' ? ' Arbitrage en delta-neutraal voor bovengemiddelde rendementen.' : 'Arbitrage and delta-neutral for high returns.'}
                   </p>
                 </div>
@@ -59,7 +59,7 @@ const HeroSection = () => {
 
                 <div className="feature-text">
                   <p>
-                    <span className="bold-text">{language === 'nl' ? 'Beheerd Risico' : 'Managed Risk'}</span>
+                    <span className="bold-text">{language === 'nl' ? 'Beheerd risico' : 'Managed Risk'}</span>
                     { language === 'nl' ? ' - Beheerst risico voor grootschalige investeringen.' : '- Controlled risk for large-scale investments.'}
                   </p>
                 </div>

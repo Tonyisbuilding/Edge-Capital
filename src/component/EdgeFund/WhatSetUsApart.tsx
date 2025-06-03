@@ -48,7 +48,7 @@ const WhatSetsUsApart = () => {
       sectionTitle: "Risk",
       riskItems: [
         {
-          title: "Liquidity Risk",
+          title: "Liquidity risk",
           description: "The inability to easily exit a position due to the lack of liquidity of the investment instrument being used.",
           measures: (
             <>
@@ -58,7 +58,7 @@ const WhatSetsUsApart = () => {
           icon: <BarChart size={24} className="text-white" />
         },
         {
-          title: "Execution Risk",
+          title: "Execution risk",
           description: "The risk of your order not being fully or not executed at all due to a technical issue.",
           measures: (
             <>
@@ -68,7 +68,7 @@ const WhatSetsUsApart = () => {
           icon: <Settings size={24} className="text-white" />
         },
         {
-          title: "Counterparty Risk",
+          title: "Counterparty risk",
           description: "The probability that a particular exchange will not be able to make the required payments for their debt obligations.",
           measures: (
             <>
@@ -83,7 +83,7 @@ const WhatSetsUsApart = () => {
       sectionTitle: "Risico",
       riskItems: [
         {
-          title: "Liquiditeit Risico",
+          title: "Liquiditeit risico",
           description: "Het onvermogen om gemakkelijk uit een positie te stappen vanwege het gebrek aan liquiditeit van het gebruikte beleggingsinstrument.",
           measures: (
             <>
@@ -93,7 +93,7 @@ const WhatSetsUsApart = () => {
           icon: <BarChart size={24} className="text-white" />
         },
         {
-          title: "Executie Risico",
+          title: "Executie risico",
           description: "Het risico van uw order wordt door een technisch probleem niet geheel of helemaal niet uitgevoerd.",
           measures: (
             <>
@@ -103,7 +103,7 @@ const WhatSetsUsApart = () => {
           icon: <Settings size={24} className="text-white" />
         },
         {
-          title: "Tegenpartij Risico",
+          title: "Tegenpartij risico",
           description: "De kans dat een bepaalde beurs niet in staat zal zijn om de vereiste betalingen voor hun schuldverplichtingen te doen.",
           measures: (
             <>

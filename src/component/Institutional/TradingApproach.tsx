@@ -41,36 +41,36 @@ const TradingApproachSection = () => {
   // Define translations for English and Dutch
   const translations = {
     en: {
-      title: "Our Trading Approach",
+      title: "Our trading approach",
       tradingApproachData: [
         {
           icon: BarChart3,
-          title: "Market-Neutral Trading",
+          title: "Market-neutral trading",
           description: "Our strategy focuses on 0DTE options on the S&P 500 and Nasdaq, allowing us to capitalize on short-term market movements while minimizing overnight exposure. By maintaining a market-neutral approach, we generate returns in both rising and falling markets, ensuring consistent performance regardless of volatility shifts.",
         },
         {
           icon: ShieldCheck,
-          title: "Automated Risk Management",
+          title: "Automated risk management",
           description: "Risk is dynamically managed through delta-hedging, which adjusts positions in real-time based on market conditions. Our proprietary algorithms, enhanced by machine learning, analyze volatility and execute trades with precision, ensuring optimal risk-reward balance across all market environments.",
         },
         {
           icon: Monitor,
-          title: "Scalability & No Overnight Risk",
+          title: "Scalability & no overnight risk",
           description: "With deep liquidity and institutional-grade execution, our model can scale seamlessly up to €100 million without performance degradation. By exclusively trading 0DTE options, we eliminate overnight risk, ensuring capital efficiency and reducing exposure to unpredictable after-hours market swings.",
         },
         {
           icon: Search,
-          title: "In-House Research & Development",
+          title: "In-house research & development",
           description: "We continuously refine our strategies through rigorous research and real-time market testing. Our in-house development team integrates the latest advancements in quantitative finance, volatility modeling, and machine learning, ensuring our trading systems remain adaptive and resilient in ever-changing market conditions.",
         },
         {
           icon: Laptop,
-          title: "Multi-Broker Integration",
+          title: "Multi-broker integration",
           description: "Our technology seamlessly connects with leading brokers, including Interactive Brokers, TastyTrade, Exante, and Swissquote, providing institutional clients with flexible execution solutions. Through API-based trading, our strategies can be integrated into existing fund structures, ensuring a smooth and efficient trading experience.",
         },
         {
           icon: PieChart,
-          title: "Proven Performance & Risk Metrics",
+          title: "Proven performance & risk metrics",
           description: "Backed by real-world execution data, our strategy delivers an average daily return of 0.18% gross (0.12% net) with a win ratio of 1.82 net and 2.41 gross. Our systematic, research-backed approach ensures consistent returns while maintaining strict risk controls.",
         },
       ],

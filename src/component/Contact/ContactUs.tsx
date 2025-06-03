@@ -49,7 +49,7 @@ const ContactInformation = () => {
   const translations = {
     en: {
       contactInfo: {
-        title: "Contact Information",
+        title: "Contact information",
         description:
           "Looking to collaborate or have questions about our services? We'd love to connect and explore how Edge Capital can help you achieve your financial goals.",
         callUs: "Call Us",
@@ -62,7 +62,7 @@ const ContactInformation = () => {
         hours: "Mon - Fri: 9AM - 6PM",
       },
       form: {
-        title: "Send Us a Message",
+        title: "Send Us a message",
         description:
           "Fill out the form below and we'll get back to you as soon as possible.",
         firstNameLabel: "First name",
@@ -261,7 +261,7 @@ const ContactInformation = () => {
     <section className="max-w-6xl mx-auto my-12 px-1 md:px-0 relative">
       <ToastContainer />
       <div className="flex flex-col md:flex-row rounded-[25px] overflow-hidden shadow-lg relative top-[-5rem]">
-        {/* Contact Information Panel */}
+        {/* Contact information Panel */}
         <motion.div
           className="bg-gradient-to-br from-[#206D80] from-20% to-[#219EB2] to-50% text-white p-8 md:w-1/2"
           initial="hidden"

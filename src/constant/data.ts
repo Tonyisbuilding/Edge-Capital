@@ -272,7 +272,7 @@ export const advisoryBoardDutch: teamMemberCardstDataType[] = [
 export const SupportAndCommercial: teamMemberCardstDataType[] = [
   {
     name: "Brahim Bouzerrade",
-    position: "Business Development Manager",
+    position: "Business development manager",
     bio: `Brahim is responsible for identifying, developing, and realizing growth opportunities for the company. His focus is on expanding the customer base and developing strategic partnerships. With years of experience, Brahim is regarded as a seasoned sales professional within our team.`,
     linkedin: "",
     image: images.landingPage.Brahim,

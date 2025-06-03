@@ -36,12 +36,12 @@ const Teams = () => {
 
 <TeamMemberCards
   teamMembers={language === 'nl' ? advisoryBoardDutch : advisoryBoard}
-  department={language === 'nl' ? 'Raad van Advies' : 'Advisory Board'}
+  department={language === 'nl' ? 'Raad van advies' : 'Advisory board'}
 />
 
 <TeamMemberCards
   teamMembers={language === 'nl' ? SupportAndCommercialDutch : SupportAndCommercial}
-  department={language === 'nl' ? 'Support en Commercieel' : 'Support and Commercial'}
+  department={language === 'nl' ? 'Support en commercieel' : 'Support and commercial'}
 />
 
 <TeamMemberCards

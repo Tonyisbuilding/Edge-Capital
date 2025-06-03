@@ -14,15 +14,15 @@ const WhyWorkWithUs = () => {
           id: 1,
           icon: "rocket",
           iconColor: "text-teal-600",
-          title: "Driven to Perform",
+          title: "Driven to perform",
           description:
-            "We are relentless in our pursuit of exceptional investment strategies. Our approach combines rigorous research, innovative quantitative methods, and a commitment to delivering superior returns for our clients.",
+            "We are relentless in our pursuit of exceptional investment strategies. Our approach combines rigorous research, innovative quantitative methods, and a commitment to delivering superior returns for Our clients.",
         },
         {
           id: 2,
           icon: "globe",
           iconColor: "text-teal-600",
-          title: "Deep Market Insights",
+          title: "Deep market insights",
           description:
             "We leverage deep market understanding and cutting-edge financial technology to identify unique investment opportunities across global markets, staying ahead of economic trends and market dynamics.",
         },
@@ -30,7 +30,7 @@ const WhyWorkWithUs = () => {
           id: 3,
           icon: "users",
           iconColor: "text-teal-600",
-          title: "Excellence Through Collaboration",
+          title: "Excellence through collaboration",
           description:
             "Our success is built on a collaborative culture that brings together top talent from finance, economics, data science, and technology to drive collective innovation and strategic thinking.",
         },
@@ -38,7 +38,7 @@ const WhyWorkWithUs = () => {
           id: 4,
           icon: "target",
           iconColor: "text-teal-600",
-          title: "Precision in Risk Management",
+          title: "Precision in risk management",
           description:
             "We excel in sophisticated risk assessment and management, applying advanced quantitative models and strategic insights to protect and optimize our investors' capital.",
         },
@@ -46,7 +46,7 @@ const WhyWorkWithUs = () => {
           id: 5,
           icon: "zap",
           iconColor: "text-teal-600",
-          title: "Continuous Innovation",
+          title: "Continuous innovation",
           description:
             "We are committed to continuous learning and innovation, constantly evolving our investment strategies, leveraging emerging technologies, and adapting to the dynamic global financial landscape.",
         },
@@ -59,7 +59,7 @@ const WhyWorkWithUs = () => {
           id: 1,
           icon: "rocket",
           iconColor: "text-teal-600",
-          title: "Gedreven om te Presteren",
+          title: "Gedreven om te presteren",
           description:
             "Bij Edge Capital streven we onwrikbaar naar uitmuntende beleggingsresultaten. Door diepgaand onderzoek, geavanceerde kwantitatieve technieken en een focus op rendement, creëren we strategieën die het verschil maken voor onze cliënten.",
         },
@@ -67,7 +67,7 @@ const WhyWorkWithUs = () => {
           id: 2,
           icon: "globe",
           iconColor: "text-teal-600",
-          title: "Diepgaande Marktinzichten",
+          title: "Diepgaande marktinzichten",
           description:
             "Wij koppelen scherpe economische analyses aan innovatieve technologie om unieke investeringskansen wereldwijd te signaleren. Zo anticiperen we op marktbewegingen en blijven we vooroplopen in een constant veranderende wereld.",
         },
@@ -75,7 +75,7 @@ const WhyWorkWithUs = () => {
           id: 3,
           icon: "users",
           iconColor: "text-teal-600",
-          title: "Excelleren door Samenwerking",
+          title: "Excelleren door samenwerking",
           description:
             "Onze kracht ligt in samenwerking. Experts uit financiën, economie, datawetenschap en technologie brengen hun kennis samen in een cultuur van gedeeld succes en grensverleggend denken.",
         },
@@ -83,7 +83,7 @@ const WhyWorkWithUs = () => {
           id: 4,
           icon: "target",
           iconColor: "text-teal-600",
-          title: "Precisie & Risicobeheer",
+          title: "Precisie & risicobeheer",
           description:
             "Met strategisch inzicht en geavanceerde kwantitatieve modellen beheren we risico’s met uitzonderlijke precisie. Zo beschermen én optimaliseren we het kapitaal van onze investeerders.",
         },
@@ -91,7 +91,7 @@ const WhyWorkWithUs = () => {
           id: 5,
           icon: "zap",
           iconColor: "text-teal-600",
-          title: "Voortdurende Innovatie",
+          title: "Voortdurende innovatie",
           description:
             "We geloven in permanente ontwikkeling. Door nieuwe technologieën te omarmen en flexibel te blijven in een dynamisch financieel landschap, blijven onze strategieën relevant en vooruitstrevend.",
         },

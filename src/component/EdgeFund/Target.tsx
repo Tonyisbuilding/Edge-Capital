@@ -74,7 +74,7 @@ const Target = () => {
   // Metrics data with translations
   const metrics = {
     en: [
-      { title: "Annual Target", value: "20%", id: 1 },
+      { title: "Annual target", value: "20%", id: 1 },
       { title: "Total cumulative result", value: "129.99%", id: 2 },
       { title: "Monthly net return target", value: "1.66%", id: 3 },
       { title: "Best month", value: "8.15%", id: 4 },

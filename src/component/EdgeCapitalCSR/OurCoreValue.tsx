@@ -10,7 +10,7 @@ const OurCoreValues = () => {
 
   const translations = {
     en: {
-      title: "Our Core Values",
+      title: "Our core values",
       values: [
         {
           title: "Sustainability",
@@ -25,19 +25,19 @@ const OurCoreValues = () => {
           measures: "Measures: Automated risk management scenarios, 24/7 human monitoring, backups, testing periods."
         },
         {
-          title: "Social Impact",
+          title: "Social impact",
           icon: <Users size={32} className='text-[#192227]' />,
-          description: "We are determined to make a positive contribution to the communities in which we operate. Through our Edge Impact label and initiatives, such as Edge Cares (mid-2025) and the Edge Horizon Foundation (2026), we support charities and projects that create impact both locally and globally.",
+          description: "We are determined to make a positive contribution to the communities in which we operate. Through our Edge impact label and initiatives, such as Edge Cares (mid-2025) and the Edge Horizon Foundation (2026), we support charities and projects that create impact both locally and globally.",
           measures: "Measures: Diversification across the largest and safest exchanges."
         },
         {
           title: "Innovation",
           icon: <Rocket size={32} className='text-[#192227]' />,
-          description: "We embrace innovation as a means to develop sustainable solutions and enhance our impact. By utilizing advanced technologies and methods, we improve our processes and the services we provide to our clients.",
+          description: "We embrace innovation as a means to develop sustainable solutions and enhance our impact. By utilizing advanced technologies and methods, we improve our processes and the services we provide to Our clients.",
           measures: "Measures: Diversification across the largest and safest exchanges."
         },
         {
-          title: "Ethical Practices",
+          title: "Ethical practices",
           icon: <Shield size={32} className='text-[#192227]' />,
           description: "We conduct our operations with integrity and respect the rights of everyone affected by our activities. We promote fair working conditions and diversity within our organization and in our business relationships",
           measures: "Measures: Diversification across the largest and safest exchanges."
@@ -45,7 +45,7 @@ const OurCoreValues = () => {
       ]
     },
     nl: {
-      title: "Onze Kernwaarden",
+      title: "Onze kernwaarden",
       values: [
         {
           title: "Duurzaamheid",
@@ -60,7 +60,7 @@ const OurCoreValues = () => {
           measures: "Maatregelen: Geautomatiseerde risicobeheerscenario's, 24/7 menselijke monitoring, back-ups, testperiodes."
         },
         {
-          title: "Sociale Impact",
+          title: "Sociale impact",
           icon: <Users size={32} className='text-[#192227]' />,
           description: "We zijn vastbesloten om een positieve bijdrage te leveren aan de gemeenschappen waarin we actief zijn. Door middel van onze Edge Impact-label en -initiatieven, zoals Edge Cares (mid-2025) en de Edge Horizon Foundation (2026), ondersteunen we goede doelen en projecten die zowel lokaal als wereldwijd impact maken.",
           measures: "Maatregelen: Diversificatie over de grootste en veiligste beurzen."
@@ -72,7 +72,7 @@ const OurCoreValues = () => {
           measures: "Maatregelen: Diversificatie over de grootste en veiligste beurzen."
         },
         {
-          title: "Ethisch Ondernemen",
+          title: "Ethisch ondernemen",
           icon: <Shield size={32} className='text-[#192227]' />,
           description: "Wij handelen met integriteit en respecteren de rechten van iedereen die door onze activiteiten wordt beïnvloed. We stimuleren eerlijke arbeidsomstandigheden en diversiteit binnen onze organisatie en in onze zakelijke relaties.",
           measures: "Maatregelen: Diversificatie over de grootste en veiligste beurzen."

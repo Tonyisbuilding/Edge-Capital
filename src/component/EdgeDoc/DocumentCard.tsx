@@ -160,7 +160,7 @@ const DocumentCardSections = () => {
   // Define translations for English and Dutch
   const translations = {
     en: {
-      heading: "Edge Documents",
+      heading: "Edge documents",
       tabs: [
         { id: "all", label: "All Documents" },
         { id: "fund", label: "Fund Documents" },
@@ -180,7 +180,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-natural",
-            title: "Subscription Forms (Natural Persons)",
+            title: "Subscription forms (Natural persons)",
             description:
               "Complete subscription forms for individual investors looking to participate in EdgeFund opportunities.",
             icon: "person",
@@ -189,7 +189,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-bvs",
-            title: "Subscription Forms (BVs)",
+            title: "Subscription forms (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in EdgeFund investment opportunities.",
             icon: "discount_email",
@@ -198,7 +198,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund Change Form",
+            title: "EdgeFund change form",
             description:
               "Update your EdgeFund account details, investment preferences, or personal information with this change form.",
             icon: "form_submission",
@@ -216,7 +216,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-natural",
-            title: "Bond Subscription (Natural Persons)",
+            title: "Bond subscription (Natural persons)",
             description:
               "Complete subscription forms for individual investors interested in Edge Capital Bond opportunities.",
             icon: "person",
@@ -225,7 +225,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-bvs",
-            title: "Bond Subscription (BVs)",
+            title: "Bond subscription (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in Edge Capital Bond investments.",
             icon: "discount_email",
@@ -234,7 +234,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "privacy-cookies",
-            title: "Privacy and Cookies Policy",
+            title: "Privacy and cookies policy",
             description:
               "Comprehensive overview of how Edge Capital handles your personal data and information privacy.",
             icon: "security",
@@ -243,7 +243,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Data and Rights",
+            title: "Data and rights",
             description:
               "Information about your rights regarding your personal data and how to exercise those rights with Edge Capital.",
             icon: "discount_email",
@@ -254,7 +254,7 @@ const DocumentCardSections = () => {
         fund: [
           {
             id: "subscription-natural",
-            title: "Subscription Forms (Natural Persons)",
+            title: "Subscription forms (Natural persons)",
             description:
               "Complete subscription forms for individual investors looking to participate in EdgeFund opportunities.",
             icon: "person",
@@ -263,7 +263,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-bvs",
-            title: "Subscription Forms (BVs)",
+            title: "Subscription forms (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in EdgeFund investment opportunities.",
             icon: "discount_email",
@@ -281,7 +281,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund Change Form",
+            title: "EdgeFund change form",
             description:
               "Update your EdgeFund account details, investment preferences, or personal information with this change form.",
             icon: "form_submission",
@@ -292,7 +292,7 @@ const DocumentCardSections = () => {
         bond: [
           {
             id: "bond-subscription-natural",
-            title: "Bond Subscription (Natural Persons)",
+            title: "Bond subscription (Natural persons)",
             description:
               "Complete subscription forms for individual investors interested in Edge Capital Bond opportunities.",
             icon: "person",
@@ -301,7 +301,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-bvs",
-            title: "Bond Subscription (BVs)",
+            title: "Bond subscription (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in Edge Capital Bond investments.",
             icon: "discount_email",
@@ -321,7 +321,7 @@ const DocumentCardSections = () => {
         privacy: [
           {
             id: "privacy-cookies",
-            title: "Privacy and Cookies Policy",
+            title: "Privacy and cookies policy",
             description:
               "Comprehensive overview of how Edge Capital handles your personal data and information privacy.",
             icon: "security",
@@ -330,7 +330,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Data and Rights",
+            title: "Data and rights",
             description:
               "Information about your rights regarding your personal data and how to exercise those rights with Edge Capital.",
             icon: "discount_email",
@@ -363,7 +363,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-natural",
-            title: "Inschrijfformulieren (Natuurlijke Personen)",
+            title: "Inschrijfformulieren (Natuurlijke personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die willen deelnemen aan EdgeFund-mogelijkheden.",
             icon: "person",
@@ -381,7 +381,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund Wijzigingsformulier",
+            title: "EdgeFund wijzigingsformulier",
             description:
               "Werk uw EdgeFund-accountgegevens, investeringsvoorkeuren of persoonlijke informatie bij met dit wijzigingsformulier.",
             icon: "form_submission",
@@ -399,7 +399,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-natural",
-            title: "Obligatie-inschrijving (Natuurlijke Personen)",
+            title: "Obligatie-inschrijving (Natuurlijke personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die geïnteresseerd zijn in Edge Capital-obligatiemogelijkheden.",
             icon: "person",
@@ -417,7 +417,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "privacy-cookies",
-            title: "Privacy- en Cookiesbeleid",
+            title: "Privacy- en cookiesbeleid",
             description:
               "Uitgebreid overzicht van hoe Edge Capital omgaat met uw persoonlijke gegevens en informatieprivacy.",
             icon: "security",
@@ -426,7 +426,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Gegevens en Rechten",
+            title: "Gegevens en rechten",
             description:
               "Informatie over uw rechten met betrekking tot uw persoonlijke gegevens en hoe u deze rechten kunt uitoefenen bij Edge Capital.",
             icon: "discount_email",
@@ -437,7 +437,7 @@ const DocumentCardSections = () => {
         fund: [
           {
             id: "subscription-natural",
-            title: "Inschrijfformulieren (Natuurlijke Personen)",
+            title: "Inschrijfformulieren (Natuurlijke personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die willen deelnemen aan EdgeFund-mogelijkheden.",
             icon: "person",
@@ -464,7 +464,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund Wijzigingsformulier",
+            title: "EdgeFund wijzigingsformulier",
             description:
               "Werk uw EdgeFund-accountgegevens, investeringsvoorkeuren of persoonlijke informatie bij met dit wijzigingsformulier.",
             icon: "form_submission",
@@ -475,7 +475,7 @@ const DocumentCardSections = () => {
         bond: [
           {
             id: "bond-subscription-natural",
-            title: "Obligatie-inschrijving (Natuurlijke Personen)",
+            title: "Obligatie-inschrijving (Natuurlijke personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die geïnteresseerd zijn in Edge Capital-obligatiemogelijkheden.",
             icon: "person",
@@ -504,7 +504,7 @@ const DocumentCardSections = () => {
         privacy: [
           {
             id: "privacy-cookies",
-            title: "Privacy- en Cookiesbeleid",
+            title: "Privacy- en cookiesbeleid",
             description:
               "Uitgebreid overzicht van hoe Edge Capital omgaat met uw persoonlijke gegevens en informatieprivacy.",
             icon: "security",
@@ -513,7 +513,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Gegevens en Rechten",
+            title: "Gegevens en rechten",
             description:
               "Informatie over uw rechten met betrekking tot uw persoonlijke gegevens en hoe u deze rechten kunt uitoefenen bij Edge Capital.",
             icon: "discount_email",

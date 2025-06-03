@@ -188,7 +188,7 @@ const TeamMemberCards = ({ teamMembers, department }: TeamMemberCardsProps) => {
             className={`text-3xl md:text-5xl font-bold text-center mb-12 text-black
              ${pathname.slice(1) === "team" ? "hidden" : "block"}`}
           >
-            {language === 'nl' ? 'Ons Management team' : 'Our Management Team'}
+            {language === 'nl' ? 'Ons management team' : 'Our management team'}
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">

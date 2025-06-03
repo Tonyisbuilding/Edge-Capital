@@ -22,7 +22,7 @@ const GetStartedSection = () => {
         {
           number: "2",
           title: "Earn Your Rewards",
-          content: "Once your clients remain active, you'll receive a reward to redeem."
+          content: "Once yOur clients remain active, you'll receive a reward to redeem."
         },
         {
           number: "3",

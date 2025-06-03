@@ -139,7 +139,7 @@ const Footer = () => {
       {/* Disclaimer Section */}
       <div className="footer-disclaimer">
         <h3>
-          {language === "nl" ? "Algemene Disclaimer:" : "General Disclaimer:"}
+          {language === "nl" ? "Algemene disclaimer:" : "General disclaimer:"}
         </h3>
         <p>
           {language === "nl"

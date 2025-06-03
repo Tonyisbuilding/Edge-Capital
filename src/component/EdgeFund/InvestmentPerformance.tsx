@@ -2,14 +2,16 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useChangeLanguageContext } from "@/context/ChangeLanguage";
+import images from "@/constant/images";
+
 
 const InvestmentPerformance = () => {
   const { language } = useChangeLanguageContext();
-  
+
   const translations = {
     en: {
       returns: "Returns",
-      february: "February",
+      April: "April",
       participationFrom: "participation from",
       metrics: {
         netReturn2024: "Net return 2024:",
@@ -26,7 +28,7 @@ const InvestmentPerformance = () => {
     },
     nl: {
       returns: "Rendementen",
-      february: "Februari",
+      April: "April",
       participationFrom: "participatie vanaf",
       metrics: {
         netReturn2024: "Nettorendement 2024:",
@@ -45,7 +47,7 @@ const InvestmentPerformance = () => {
 
   // Get the appropriate language translations
   const t = translations[language] || translations.en;
-  
+
   const cardVariants = {
     initial: { opacity: 0, y: 50 },
     animate: { opacity: 1, y: 0 },
@@ -92,12 +94,23 @@ const InvestmentPerformance = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <motion.h2
+      <motion.div
         variants={cardVariants}
-        className="text-3xl lg:text-[3rem] font-bold text-gray-900 mb-6 text-left underline"
+        className="mb-6"
       >
-        {t.returns}
-      </motion.h2>
+        <div className="relative inline-block text-left">
+          <h2 className="text-3xl lg:text-[3rem] font-bold text-gray-900 relative z-10">
+            {t.returns}
+          </h2>
+          <img
+            src={images.landingPage.Brush}
+            alt="Brush underline"
+            className="absolute bottom-[-3px] left-0 h-[5px] z-0"
+          />
+        </div>
+      </motion.div>
+
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
         {performanceData.map((card, index) => (
           <motion.div
@@ -130,7 +143,7 @@ const InvestmentPerformance = () => {
                   </svg>
                 </div>
                 <span className="text-lg font-semibold text-[#206A7C]">
-                  {language === 'nl' ? t.february : 'February'}
+                  {language === 'nl' ? t.April : 'April'}
                 </span>
               </div>
               <span className="text-base font-bold text-emerald-600 bg-emerald-50 px-3.5 py-1.5 rounded-full">
@@ -145,11 +158,10 @@ const InvestmentPerformance = () => {
                 {card.metrics.map((metric, i) => (
                   <li
                     key={i}
-                    className={`flex justify-between items-center pb-3 ${
-                      i === card.metrics.length - 1
-                        ? ""
-                        : "border-b border-gray-100"
-                    }`}
+                    className={`flex justify-between items-center pb-3 ${i === card.metrics.length - 1
+                      ? ""
+                      : "border-b border-gray-100"
+                      }`}
                   >
                     <span className="text-gray-600 font-medium text-sm">
                       {metric.label}

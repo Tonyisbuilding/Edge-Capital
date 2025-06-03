@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useChangeLanguageContext } from "@/context/ChangeLanguage";
+import images from "@/constant/images";
+
 
 const Feature = () => {
   const { language } = useChangeLanguageContext();
@@ -34,19 +36,19 @@ const Feature = () => {
       features: 'Features',
       description: 'An open-end mutual fund offering sophisticated investment strategies with institutional-level management.',
       investmentStrategy: {
-        title: 'Investment Strategy',
+        title: 'Investment strategy',
         description: 'Sophisticated approaches to maximize returns with managed risk',
         items: [
           {
-            title: 'Volatility Premium',
+            title: 'Volatility premium',
             description: 'Market-neutral strategy to capitalize on market volatility'
           },
           {
-            title: 'Interest Rate Arbitrage',
+            title: 'Interest rate arbitrage',
             description: 'Market-neutral profit from interest rate differentials'
           },
           {
-            title: 'FX Arbitrage',
+            title: 'FX arbitrage',
             description: 'Exploiting discrepancies within the currency markets — a modern and improved version of the well-known index arbitrage.'
           }
         ]
@@ -56,15 +58,15 @@ const Feature = () => {
         description: 'Institutional-grade structure and oversight',
         items: [
           {
-            title: 'Professional Management',
+            title: 'Professional management',
             description: 'Managed by Edge Capital Management B.V.'
           },
           {
-            title: 'Secure Custody',
+            title: 'Secure custody',
             description: 'Edge Capital EdgeFund Custody Foundation ensures asset safety'
           },
           {
-            title: 'Banking Partner',
+            title: 'Banking partner',
             description: 'Northern Trust provides banking infrastructure'
           },
           {
@@ -74,29 +76,29 @@ const Feature = () => {
         ]
       },
       liquidityTerms: {
-        title: 'Entry and Exit',
+        title: 'Entry and exit',
         description: 'Flexible entry and exit terms without fees',
         items: [
           {
-            title: 'Monthly Entry Options',
+            title: 'Monthly entry options',
             description: 'New investments are accepted on a monthly basis.'
           },
           {
-            title: 'Flexible Exit',
+            title: 'Flexible exit',
             description: 'You can exit on a monthly basis.'
           },
           {
-            title: 'No Fees',
+            title: 'No fees',
             description: 'Entering and exiting involves no fees.'
           },
           {
-            title: 'Monthly Reporting',
+            title: 'Monthly reporting',
             description: 'Detailed statements provided monthly for all participants'
           }
         ]
       },
       participationRequirements: {
-        title: 'Participation Requirements',
+        title: 'Participation requirements',
         description: 'Investment thresholds and guidelines',
         items: [
           {
@@ -127,7 +129,7 @@ const Feature = () => {
         description: 'Geavanceerde benaderingen om rendement te maximaliseren met een beheerst risico',
         items: [
           {
-            title: 'Volatility Premium Risk',
+            title: 'Volatility premium Risk',
             description: 'Marktneutrale strategie om in te spelen op de marktvolatiliteit'
           },
           {
@@ -289,12 +291,20 @@ const Feature = () => {
           variants={containerVariants}
           className="space-y-6"
         >
-          <motion.h2 
-            variants={itemVariants}
-            className="text-3xl font-bold text-gray-900"
-          >
-            {t.features}
-          </motion.h2>
+          <motion.div
+  variants={itemVariants}
+  className="relative inline-block mb-4"
+>
+  <h2 className="text-3xl font-bold text-gray-900 relative z-10">
+    {t.features}
+  </h2>
+  <img
+    src={images.landingPage.Brush}
+    alt="Brush underline"
+    className="absolute bottom-[-3px] left-0 h-[5px] z-0"
+  />
+</motion.div>
+
           <motion.p 
             variants={itemVariants}
             className="text-lg text-gray-700 mb-8"

@@ -20,15 +20,15 @@ const FundCostStructure = () => {
   // Translations
   const translations = {
     en: {
-      fundCostStructure: "Fund Cost Structure",
+      fundCostStructure: "Participation requirements",
       minimumInvestment: "minimum investment",
-      requestInformation: "Request Information",
+      requestInformation: "Request information",
       bookConsultation: "Book a consultation",
       learnMore: "Learn more",
       close: "Close",
-      highWatermarkTitle: "High Watermark Principle Explained",
+      highWatermarkTitle: "High watermark principle explained",
       highWatermarkDescription: "Our commission structure protects your investments with the High Watermark principle",
-      highWatermarkPopupTitle: "High Watermark Principle",
+      highWatermarkPopupTitle: "High watermark principle",
       highWatermarkPopupContent: "The manager calculates profit sharing based on the \"high water mark principle.\" High watermark: A high watermark refers to the highest value achieved by an investment fund or asset manager. This term is often used in performance-based compensation of a fund or asset manager. In a fee structure with a high watermark application, commission fees of a fund manager or asset manager are only calculated based on net results. The fee is only calculated after past losses have been recovered. This prevents the fund manager or asset manager from receiving fees from volatile performance. Profit sharing is calculated retrospectively on a monthly basis, and the high watermark level is also determined monthly."
     },
     nl: {
@@ -38,9 +38,9 @@ const FundCostStructure = () => {
       bookConsultation: "Schrijf u nu in!",
       learnMore: "Meer informatie",
       close: "Sluiten",
-      highWatermarkTitle: "Toelichting High Watermark-principe",
+      highWatermarkTitle: "Toelichting high watermark-principe",
       highWatermarkDescription: "Het High watermark principe beschermt u tegen onverwachte kosten",
-      highWatermarkPopupTitle: "High Watermark Principe",
+      highWatermarkPopupTitle: "High watermark principe",
       highWatermarkPopupContent: "Een high watermark refereert naar de hoogste waarde die een beleggingsfonds of vermogensbeheerder heeft behaald. Deze term wordt vaak gebruikt bij prestatieafhankelijke compensatie van een fonds- of vermogensbeheerder.\nBij een kostenstructuur met een high watermark toepassing worden provisiekosten van een fondsmanager of vermogensbeheerder alleen berekend over de nettoresultaten. De vergoeding wordt pas berekend nadat de verliezen uit het verleden zijn teruggewonnen. Zo wordt voorkomen dat de fondsmanager of vermogensbeheerder vergoedingen ontvangt uit een volatiele prestatie.\nDe winstdeling wordt op maandbasis achteraf berekend en het high watermark-niveau wordt ook per maand bepaald.",
     }
   };
@@ -50,22 +50,22 @@ const FundCostStructure = () => {
     en: [
       {
         id: "class-i",
-        title: "Participation Class I",
+        title: "Participation class I",
         stars: 1,
-        description: "Perfect for individual investors and small family offices.",
+        description: "Perfect for individual investors and small Family offices.",
         investment: "€100K-€250K",
         buttonText: "Sign up now!",
         buttonClass: "bg-gray-900 hover:bg-gray-800",
         features: [
-          "1.5% Management Fee (per year)",
-          "22.5% Profit Sharing (per month) High",
-          "High Watermark Protection",
-          "Monthly Performance Reports",
+          "1.5% Management fee (per year)",
+          "22.5% Profit sharing (per month) high",
+          "High watermark protection",
+          "Monthly performance reports",
         ],
       },
       {
         id: "class-ii",
-        title: "Participation Class II",
+        title: "Participation class II",
         stars: 2,
         description:
           "Ideal for established investors and medium-sized institutions.",
@@ -74,28 +74,28 @@ const FundCostStructure = () => {
         buttonClass:
           "bg-gradient-to-r from-[#5A7B8D] to-[#192227] hover:bg-slate-700",
         features: [
-          "Everything in Class I +",
-          "1.25% Management Fee (per year)",
-          "17.5% Profit Sharing (per month)",
-          "Dedicated Account Manager",
-          "Priority Support Channel",
+          "Everything in class I +",
+          "1.25% Management fee (per year)",
+          "17.5% Profit sharing (per month)",
+          "Dedicated account manager",
+          "Priority support channel",
         ],
       },
       {
         id: "class-iii",
-        title: "Participation Class III",
+        title: "Participation class III",
         stars: 3,
         description:
-          "Built for institutional investors and large family offices.",
+          "Built for institutional investors and large Family offices.",
         investment: "€ 500K - en hoger",
         buttonText: "Sign up now!",
         buttonClass: "bg-gray-900 hover:bg-gray-800",
         features: [
-          "Everything in Class II +",
-          "1% Management Fee (per year)",
-          "12.5% Profit Sharing (per month)",
-          "Custom Investment Strategy",
-          "Quarterly Strategy Reviews",
+          "Everything in class II +",
+          "1% Management fee (per year)",
+          "12.5% Profit sharing (per month)",
+          "Custom investment strategy",
+          "Quarterly strategy reviews",
         ],
       },
     ],
@@ -104,14 +104,14 @@ const FundCostStructure = () => {
         id: "class-i",
         title: "Participatieklasse I",
         stars: 1,
-        description: "Perfect voor individuele beleggers en kleine family offices.",
+        description: "Perfect voor individuele beleggers en kleine Family offices.",
         investment: "€100K-€250K",
         buttonText: "Schrijf u nu in!",
         buttonClass: "bg-gray-900 hover:bg-gray-800",
         features: [
           "1,5% Beheervergoeding (per jaar)",
           "22,5% Winstdeling (per maand) Hoog",
-          "High Watermark-bescherming",
+          "High watermark-bescherming",
           "Maandelijkse prestatieoverzichten",
         ],
       },
@@ -137,7 +137,7 @@ const FundCostStructure = () => {
         title: "Participatieklasse III",
         stars: 3,
         description:
-          "Ontworpen voor institutionele beleggers en grote family offices.",
+          "Ontworpen voor institutionele beleggers en grote Family offices.",
         investment: "€ 500K - en hoger",
         buttonText: "Schrijf u nu in!",
         buttonClass: "bg-gray-900 hover:bg-gray-800",

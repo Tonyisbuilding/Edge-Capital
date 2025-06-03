@@ -41,19 +41,17 @@ const AboutEdgeFund = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            <h2
-              className="relative font-bold text-gray-900 mb-2 
-             text-[30.86px] md:text-[35px] inline-block"
-              style={{
-                backgroundImage: `url(${images.landingPage.Brush})`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "0 100%",
-                backgroundSize: "contain",
-                paddingBottom: "0.5rem",
-              }}
-            >
-              {content.title}
-            </h2>
+            <div className="relative inline-block mb-2">
+              <h2 className="font-bold text-gray-900 text-[30.86px] md:text-[35px] relative z-10">
+                {content.title}
+              </h2>
+              <img
+                src={images.landingPage.Brush}
+                alt="Brush underline"
+                className="absolute bottom-[-1px] left-0 h-[6px] z-0"
+              />
+            </div>
+
 
             {/* <div className="w-24 h-[1.2px] bg-yellow-400 mb-6"></div> */}
 

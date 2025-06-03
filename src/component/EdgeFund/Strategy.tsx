@@ -7,12 +7,12 @@ import { translations } from "@/constant/translation";
 
 const StrategySection = () => {
   const [activePopup, setActivePopup] = useState<string | null>(null);
-  const { language } = useChangeLanguageContext(); 
-  const t = translations[language]; 
+  const { language } = useChangeLanguageContext();
+  const t = translations[language];
 
   const strategies = [
     {
-      id: "Volatility Risk Premium",
+      id: "Volatility risk premium",
       title: t.volatilityRiskPremiumTitle,
       description: t.volatilityRiskPremiumDescription,
       popupTitle: t.volatilityRiskPremiumPopupTitle,
@@ -40,23 +40,22 @@ const StrategySection = () => {
   return (
     <div className="bg-[#EEF4F5C2] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-       <div className="relative inline-block mb-8">
-  <h2 className="text-5xl font-bold text-gray-900 z-10 relative">{t.ourStrategy}</h2>
-  <img
-    src={images.landingPage.Brush}
-    alt="Brush underline"
-    className="absolute left-0 bottom-[-1px] w-auto h-[8px] z-0 pointer-events-none"
-  />
-</div>
+        <div className="relative inline-block mb-8">
+          <h2 className="text-5xl font-bold text-gray-900 z-10 relative">{t.ourStrategy}</h2>
+          <img
+            src={images.landingPage.Brush}
+            alt="Brush underline"
+            className="absolute bottom-[-10px] left-0 h-[6px] z-0"
+          />
+        </div>
 
         {/* Desktop layout */}
         <div className="hidden lg:grid grid-cols-2">
           {strategies.map((strategy, index) => (
             <div
               key={strategy.id}
-              className={`bg-[#EEF4F5C2] ${
-                index === 0 ? "rounded-l-lg" : "rounded-r-lg"
-              } 
+              className={`bg-[#EEF4F5C2] ${index === 0 ? "rounded-l-lg" : "rounded-r-lg"
+                } 
              p-8 border-1 border-[#206A7C] flex flex-col justify-between`}
             >
               <div>

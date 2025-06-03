@@ -10,18 +10,18 @@ const OpenPositions = () => {
   // Define translations for English and Dutch
   const translations = {
     en: {
-      heading: "Open Positions",
+      heading: "Open positions",
       jobs: [
         {
           id: 1,
-          title: "Business Development Manager",
+          title: "Business development manager",
           description: "We are looking for an experienced account manager.",
           remote: "Noordwijkerhout",
           type: "Full-time",
         },
         {
           id: 2,
-          title: "Customer Support Manager",
+          title: "Customer support manager",
           description: "Due to our expanding client base, we are looking for a support manager.",
           remote: "Noordwijkerhout",
           type: "Full-time",
@@ -45,18 +45,18 @@ const OpenPositions = () => {
       applyAriaLabel: (title: string) => `Apply for ${title} position`,
     },
     nl: {
-      heading: "Openstaande Vacatures",
+      heading: "Openstaande vacatures",
       jobs: [
         {
           id: 1,
-          title: "Business Development Manager",
+          title: "Business development manager",
           description: "Wij zijn opzoek naar een ervaren accountmanager.",
           remote: "Noordwijkerhout",
           type: "Voltijd",
         },
         {
           id: 2,
-          title: "Customer Support Manager",
+          title: "Customer support manager",
           description: "Wegens het uitbreidende klantenbestand zijn wij op zoek naar een support manager.",
           remote: "Noordwijkerhout",
           type: "Voltijd",

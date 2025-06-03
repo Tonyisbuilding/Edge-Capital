@@ -110,7 +110,7 @@ const WhatSetsUsApart = () => {
         },
         {
           icon: <Castle className="w-12 h-12 text-white" />,
-          title: "Kwantitatieve Handel",
+          title: "Kwantitatieve handel",
           backText:
             "Onze strategieën maken gebruik van geavanceerde handelssystemen op opties- en futuresmarkten voor precisie en efficiëntie.",
         },

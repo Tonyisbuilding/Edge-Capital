@@ -48,7 +48,7 @@ const EdgeDocuments = () => {
               animate="visible"
               variants={textVariants}
             >
-              {language === "nl" ? "Documenten" : "Edge Documents"}
+              {language === "nl" ? "Documenten" : "Edge documents"}
             </motion.h2>
 
             <motion.p

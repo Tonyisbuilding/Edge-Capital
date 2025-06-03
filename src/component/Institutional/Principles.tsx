@@ -19,41 +19,41 @@ const PrinciplesSection: React.FC = () => {
   const translations = {
     en: {
       subheader: "Edge Capital Principles",
-      header: "5 Principles That Drive Our Success",
+      header: "5 principles that drive our success",
       principles: [
         {
           id: 1,
-          title: "Volatility Premium Strategy",
+          title: "Volatility premium Strategy",
           description:
             "Our strategy based on ES (S&P 500) and NQ (Nasdaq) options utilizes a model focused on selling volatility and targets short-term systems. We sell options with 0 days to expiration (DTE) at deltas between 0.1 and 0.3 with an asymmetrical preference for the call side.",
           icon: <TrendingUp className="w-12 h-12 text-[#000D14]" />,
         },
         {
           id: 2,
-          title: "Dynamic Delta-Hedging",
+          title: "Dynamic Delta-hedging",
           description:
             "Delta-hedging adjusts dynamically based on market volatility, supported by parameters enhanced with machine learning. This allows us to maintain optimal risk management regardless of market conditions.",
           icon: <Scale className="w-12 h-12 text-[#000D14]" />,
         },
         {
           id: 3,
-          title: "Proven Performance",
+          title: "Proven performance",
           description:
             "The strategy shows an average daily expected return of 0.18% gross (before commissions) and 0.12% net (after costs). The win ratio, calculated as the ratio of profitable days to losing days, is 1.82 net and 2.41 gross.",
           icon: <Award className="w-12 h-12 text-[#000D14]" />,
         },
         {
           id: 4,
-          title: "Risk Management & Scalability",
+          title: "Risk management & scalability",
           description:
             "By exclusively using 0DTE options on the S&P 500 and Nasdaq, we avoid overnight risks. Moreover, our model offers high scalability of up to €100 million without compromising efficiency or performance.",
           icon: <BarChart2 className="w-12 h-12 text-[#000D14]" />,
         },
         {
           id: 5,
-          title: "Institutional-Grade Collaboration",
+          title: "Institutional-grade collaboration",
           description:
-            "We offer flexible collaboration options through direct fund participation or tailor-made SaaS solutions, allowing various types of investors to benefit from our strategies.",
+            "We offer flexible collaboration options through Direct fund participation or tailor-made SaaS solutions, allowing various types of investors to benefit from our strategies.",
           icon: <Users className="w-12 h-12 text-[#000D14]" />,
         },
       ],

@@ -10,18 +10,18 @@ const ResearchDevelopmentSection = () => {
   // Define translations for English and Dutch
   const translations = {
     en: {
-      title: "Research & Development – The Engine Behind Our Success",
+      title: "Research & development – The engine behind our success",
       sections: [
         {
-          title: "In-House Research for Continuous Adaptation",
+          title: "In-House research for continuous adaptation",
           content: "Thorough research forms the basis for a successful and sustainable trading strategy. We continuously expand our platform based on input from our research department.",
         },
         {
-          title: "Machine Learning Integration",
+          title: "Machine learning integration",
           content: "We adapt to new technologies, such as implementing machine learning to enhance our trading parameters and improve prediction accuracy.",
         },
         {
-          title: "Proprietary Trading Engine",
+          title: "Proprietary trading engine",
           content: "We've developed hedgers that can operate on multiple exchanges, providing unparalleled flexibility and efficiency.",
         },
       ],
@@ -32,7 +32,7 @@ const ResearchDevelopmentSection = () => {
       title: "Research & Development – De motor achter ons succes",
       sections: [
         {
-          title: "Intern Onderzoek voor Continue Aanpassing",
+          title: "Intern onderzoek voor continue aanpassing",
           content: "Grondig onderzoek vormt de basis voor een succesvolle en duurzame handelsstrategie. Wij breiden ons platform continu uit op basis van input uit ons onderzoeksteam.",
         },
         {

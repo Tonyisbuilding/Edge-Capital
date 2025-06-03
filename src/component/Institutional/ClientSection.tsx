@@ -33,26 +33,26 @@ const ClientsSection = () => {
   const translations = {
     en: {
       // subheader: "Trusted Partners",
-      header: "Our Clients",
+      header: "Our clients",
       description: "We serve a broad spectrum of institutional clients with tailored solutions.",
       clients: [
         {
-          title: "Hedge Funds and Asset Managers",
+          title: "Hedge funds and asset managers",
           description: "If you want to diversify within your strategy or completely outsource the strategy.",
           icon: TrendingUp,
         },
         {
-          title: "Proprietary Trading Firms",
+          title: "Proprietary trading firms",
           description: "For prop traders looking to enhance or diversify their strategy.",
           icon: Users,
         },
         {
-          title: "Family Offices",
+          title: "Family offices",
           description: "Market-neutral investing to reduce risk.",
           icon: Home,
         },
         {
-          title: "Factoring Companies",
+          title: "Factoring companies",
           description: "Park your idle funds for a favorable return.",
           icon: Clock,
         },

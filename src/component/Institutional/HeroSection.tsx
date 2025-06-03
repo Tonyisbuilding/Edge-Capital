@@ -67,8 +67,8 @@ const HeroSection = () => {
                   whileInView="visible"
                 >
                   {language === "nl"
-                    ? "Wij zijn de toekomst van Institutionele Handel"
-                    : "We are the Future of Institutional Trading"}
+                    ? "Wij zijn de toekomst van institutionele handel"
+                    : "We are the future of institutional trading"}
                 </motion.h1>
 
                 <motion.p
@@ -110,7 +110,7 @@ const HeroSection = () => {
         transition={{ delay: 0.8, duration: 0.6 }}
       >
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
-          {language === 'nl' ? 'Waar financiën, wiskunde en technologie samenkomen' : 'Where Finance, Mathematics & Technology Converge'}
+          {language === 'nl' ? 'Waar financiën, wiskunde en technologie samenkomen' : 'Where finance, mathematics & technology converge'}
         </h2>
       </motion.div>
     </div>

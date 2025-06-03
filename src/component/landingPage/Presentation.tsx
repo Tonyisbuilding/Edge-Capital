@@ -57,7 +57,7 @@
 //         </div>
 //         <div className=" lg:w-[50%] ">
 //           <h2 className=" text-left  text-[#192227] text-[30px] montserrat font-bold lg:w-[30rem]">
-//             Secure Your Exclusive Presentation
+//             Secure your exclusive presentation
 //           </h2>
 //           <p className=" font-normal text-[17.45px] text-[#1A1A1A] montserrat py-5 lg:w-[30rem]">
 //             Starting a new investment is a significant step! Before you make
@@ -189,7 +189,7 @@ const Presentation = () => {
           >
             {language === "nl"
               ? "Vraag uw exclusieve presentatie aan"
-              : "Secure Your Exclusive Presentation"}
+              : "Secure your exclusive presentation"}
           </h2>
           <p className="text-[#64748b] mb-6 sm:mb-7 md:mb-8 text-[0.95rem] sm:text-base md:text-[1.05rem]">
             {language === "nl"

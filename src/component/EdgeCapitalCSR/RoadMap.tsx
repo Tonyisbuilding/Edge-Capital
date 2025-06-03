@@ -10,14 +10,14 @@ const RoadmapSection = () => {
 
   const translations = {
     en: {
-      title: "Our Roadmap",
+      title: "Our roadmap",
       roadmapData: [
         {
           id: 1,
-          title: "Edge Impact Label",
-          content: "Our Edge Impact Label identifies and supports projects with significant social and environmental benefits. We carefully select initiatives that align with our core values and can make a meaningful difference.",
+          title: "Edge impact label",
+          content: "Our Edge impact label identifies and supports projects with significant social and environmental benefits. We carefully select initiatives that align with Our core values and can make a meaningful difference.",
           year: "Present",
-          subtitle: "Making an Impact Today"
+          subtitle: "Making an impact today"
         },
         {
           id: 2,
@@ -29,19 +29,19 @@ const RoadmapSection = () => {
         {
           id: 3,
           title: "Edge Horizon Foundation",
-          content: "The Edge Horizon Foundation will serve as our primary vehicle for implementing large-scale sustainability and social impact projects, creating lasting positive change on a global scale.",
+          content: "The Edge Horizon Foundation will serve as our primary vehicle for implementing large-scale sustainability and Social impact projects, creating lasting positive change on a global scale.",
           year: "2026",
           subtitle: "Global Sustainability"
         }
       ]
     },
     nl: {
-      title: "Onze Roadmap",
+      title: "Onze roadmap",
       roadmapData: [
         {
           id: 1,
-          title: "Edge Impact Label",
-          content: "Ons Edge Impact Label identificeert en ondersteunt projecten met aanzienlijke sociale en milieugerelateerde voordelen. We selecteren zorgvuldig initiatieven die aansluiten bij onze kernwaarden en daadwerkelijk een verschil kunnen maken.",
+          title: "Edge impact label",
+          content: "Ons Edge impact label identificeert en ondersteunt projecten met aanzienlijke sociale en milieugerelateerde voordelen. We selecteren zorgvuldig initiatieven die aansluiten bij Onze kernwaarden en daadwerkelijk een verschil kunnen maken.",
           year: "Heden",
           subtitle: "Impact maken vandaag"
         },

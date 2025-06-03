@@ -18,7 +18,7 @@ const ContactInfo = () => {
           <h1 className=" text-[#111111] md:text-[50.27px] text-[30px] font-semibold ">
             {language === "nl"
               ? `We verwelkomen u graag!`
-              : `We'd Love to Have you around`}
+              : `We'd love to have you around`}
           </h1>
           <p className=" pt-[1rem] text-[#3D3D3D] text-[16.59px] font-normal">
             {language === "nl"
