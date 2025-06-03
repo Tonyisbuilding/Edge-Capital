@@ -38,7 +38,7 @@ const WhyWorkWithUs = () => {
           id: 4,
           icon: "target",
           iconColor: "text-teal-600",
-          title: "Precision in risk management",
+          title: "Precision in Risk management",
           description:
             "We excel in sophisticated risk assessment and management, applying advanced quantitative models and strategic insights to protect and optimize our investors' capital.",
         },

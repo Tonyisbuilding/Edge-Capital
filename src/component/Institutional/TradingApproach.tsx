@@ -50,7 +50,7 @@ const TradingApproachSection = () => {
         },
         {
           icon: ShieldCheck,
-          title: "Automated risk management",
+          title: "Automated Risk management",
           description: "Risk is dynamically managed through delta-hedging, which adjusts positions in real-time based on market conditions. Our proprietary algorithms, enhanced by machine learning, analyze volatility and execute trades with precision, ensuring optimal risk-reward balance across all market environments.",
         },
         {

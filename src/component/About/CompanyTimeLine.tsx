@@ -36,7 +36,7 @@ const CompanyTimeline = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          {language === 'nl' ? 'Al meer dan 8 jaar' : 'For Over 8 Years'}
+          {language === 'nl' ? 'Al meer dan 8 jaar' : 'For over 8 years'}
         </motion.h2>
 
         <motion.p

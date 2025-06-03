@@ -32,7 +32,7 @@ const PrinciplesSection: React.FC = () => {
           id: 2,
           title: "Dynamic Delta-hedging",
           description:
-            "Delta-hedging adjusts dynamically based on market volatility, supported by parameters enhanced with machine learning. This allows us to maintain optimal risk management regardless of market conditions.",
+            "Delta-hedging adjusts dynamically based on market volatility, supported by parameters enhanced with machine learning. This allows us to maintain optimal Risk management regardless of market conditions.",
           icon: <Scale className="w-12 h-12 text-[#000D14]" />,
         },
         {

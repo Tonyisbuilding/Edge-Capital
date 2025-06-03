@@ -81,13 +81,13 @@ const WhatSetsUsApart = () => {
         },
         {
           icon: <Shield className="w-12 h-12 text-white" />,
-          title: "Risk Management",
+          title: "Risk management",
           backText:
             "Every position we take is fully hedged, ensuring minimized risk and stable returns.",
         },
         {
           icon: <Castle className="w-12 h-12 text-white" />,
-          title: "Quantitative Trading",
+          title: "Quantitative trading",
           backText:
             "Our strategies leverage advanced trading systems across options and futures markets for precision and efficiency.",
         },
