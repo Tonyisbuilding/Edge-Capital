@@ -37,7 +37,7 @@ const Feature = () => {
       description: 'An open-end mutual fund offering sophisticated investment strategies with institutional-level management.',
       investmentStrategy: {
         title: 'Investment strategy',
-        description: 'Sophisticated approaches to maximize returns with managed risk',
+        description: 'Sophisticated approaches to maximize returns with Managed risk',
         items: [
           {
             title: 'Volatility premium',
