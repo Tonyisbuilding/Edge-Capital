@@ -90,7 +90,7 @@ const HeroSection = () => {
                   whileTap={{ scale: 0.95 }}
                 >
                   <Link to="/contact" className="block ">
-                  { language === 'nl' ? 'Neem contact op' : 'Contact us'}
+                  { language === 'nl' ? 'Neem Contact op' : 'Contact us'}
                   </Link>
                 </motion.button>
                 {/* <div

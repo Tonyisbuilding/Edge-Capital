@@ -219,8 +219,8 @@ const Feature = () => {
       translationKey: 'investmentStrategy',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2"/>
-          <path d="M12 6V18M18 12H6" stroke="#0E7490" strokeWidth="2" strokeLinecap="round"/>
+          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2" />
+          <path d="M12 6V18M18 12H6" stroke="#0E7490" strokeWidth="2" strokeLinecap="round" />
         </svg>
       ),
       items: [
@@ -234,8 +234,8 @@ const Feature = () => {
       translationKey: 'keyInformation',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2"/>
-          <path d="M12 8V12M12 16H12.01" stroke="#0E7490" strokeWidth="2" strokeLinecap="round"/>
+          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2" />
+          <path d="M12 8V12M12 16H12.01" stroke="#0E7490" strokeWidth="2" strokeLinecap="round" />
         </svg>
       ),
       items: [
@@ -250,8 +250,8 @@ const Feature = () => {
       translationKey: 'liquidityTerms',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2"/>
-          <path d="M8 12H16M12 8V16" stroke="#0E7490" strokeWidth="2" strokeLinecap="round"/>
+          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2" />
+          <path d="M8 12H16M12 8V16" stroke="#0E7490" strokeWidth="2" strokeLinecap="round" />
         </svg>
       ),
       items: [
@@ -266,8 +266,8 @@ const Feature = () => {
       translationKey: 'participationRequirements',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2"/>
-          <path d="M9 12L11 14L15 10" stroke="#0E7490" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="12" cy="12" r="10" stroke="#0E7490" strokeWidth="2" />
+          <path d="M9 12L11 14L15 10" stroke="#0E7490" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
       items: [
@@ -292,20 +292,20 @@ const Feature = () => {
           className="space-y-6"
         >
           <motion.div
-  variants={itemVariants}
-  className="relative inline-block mb-4"
->
-  <h2 className="text-3xl font-bold text-gray-900 relative z-10">
-    {t.features}
-  </h2>
-  <img
-    src={images.landingPage.Brush}
-    alt="Brush underline"
-    className="absolute bottom-[-3px] left-0 h-[5px] z-0"
-  />
-</motion.div>
+            variants={itemVariants}
+            className="relative inline-block mb-4"
+          >
+            <h2 className="text-3xl font-bold text-gray-900 relative z-10">
+              {t.features}
+            </h2>
+            <img
+              src={images.landingPage.Brush}
+              alt="Brush underline"
+              className="absolute bottom-[-3px] left-0 h-[5px] z-0"
+            />
+          </motion.div>
 
-          <motion.p 
+          <motion.p
             variants={itemVariants}
             className="text-lg text-gray-700 mb-8"
           >
@@ -319,9 +319,9 @@ const Feature = () => {
                 description: string;
                 items: { title: string; description: string; linkText?: string }[];
               };
-              
+
               return (
-                <motion.div 
+                <motion.div
                   key={feature.id}
                   variants={itemVariants}
                   className="lg:grid lg:grid-cols-3 gap-6"
@@ -329,7 +329,7 @@ const Feature = () => {
                   <div className="col-span-1">
                     <div className="flex items-start mb-4">
                       <div className="flex-shrink-0 text-primary-600 mr-3">
-                        {feature.icon} 
+                        {feature.icon}
                       </div>
                       <div>
                         <h3 className="text-xl font-semibold text-gray-900">{featureTranslation.title}</h3>
@@ -337,14 +337,14 @@ const Feature = () => {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="col-span-2 mt-4 lg:mt-0">
                     <div className="space-y-4">
                       {feature.items.map((item, index) => {
                         const itemTranslation = featureTranslation.items[index] as { title: string; description: string; linkText?: string };
-                        
+
                         return (
-                          <motion.div 
+                          <motion.div
                             key={item.id}
                             whileHover={{ scale: 1.01 }}
                             className="bg-white rounded-lg shadow-sm p-4 border border-gray-100"

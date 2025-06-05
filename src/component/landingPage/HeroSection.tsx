@@ -73,7 +73,7 @@ const HeroSection = () => {
                   className="block "
                   // onClick={toggleNav}
                 >
-                  { language === 'nl' ? 'Neem contact op' : 'Get in Touch'}
+                  { language === 'nl' ? 'Neem Contact op' : 'Get in Touch'}
                 </Link>
               </button>
               <button

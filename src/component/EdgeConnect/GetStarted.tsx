@@ -41,7 +41,7 @@ const GetStartedSection = () => {
         {
           number: "1",
           title: "Verwijs nieuwe klanten",
-          content: "DeelU unieke verwijzingslink of neem contact op metU relatiemanager om nieuwe klanten te introduceren."
+          content: "DeelU unieke verwijzingslink of Neem Contact op metU relatiemanager om nieuwe klanten te introduceren."
         },
         {
           number: "2",

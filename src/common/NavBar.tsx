@@ -72,7 +72,7 @@ const Navbar = () => {
       media: "Media",
       documents: "Documenten",
       careers: "Vacatures",
-      contactUs: "Neem Contact Op",
+      contactUs: "Neem Contact op",
       english: "Engels",
       dutch: "Dutch",
     }

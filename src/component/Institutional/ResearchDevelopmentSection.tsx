@@ -44,7 +44,7 @@ const ResearchDevelopmentSection = () => {
           content: "We hebben hedgers ontwikkeld die op meerdere beurzen kunnen opereren — met ongeëvenaarde flexibiliteit en efficiëntie.",
         },
       ],
-      contactUs: "Neem Contact Op",
+      contactUs: "Neem Contact op",
       imageAlt: "Onderzoeksteam dat marktgegevens analyseert",
     },
   };

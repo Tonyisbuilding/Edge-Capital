@@ -22,7 +22,7 @@ const EdgeCapitalHero = () => {
     nl: {
       heading: "Onze naam is meer dan slechts een knipoog naar ‘hedge funds’. ‘Edge’ staat voor het voordeel dat we onze cliënten bieden—vooroplopen met strategieën gebaseerd op marktfeiten in plaats van voorspellingen.",
       subheading: "Onze strategieën zijn gebaseerd op arbitragemethoden en marktonafhankelijke beleggingen, wat ons een voordeel geeft ten opzichte van traditionele vermogensbeheerproducten.",
-      getInTouch: "Neem Contact Op",
+      getInTouch: "Neem Contact op",
       altText: "Edge Capital Team"
     }
   };
