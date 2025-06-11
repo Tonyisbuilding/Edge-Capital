@@ -351,7 +351,7 @@ const FundCostStructure = () => {
                     {fundClass.investment}
                   </p>
                   <p className="text-sm text-gray-500">{t.minimumInvestment}</p>
-                  <Link to="/requestinfo">
+                  <Link to="/participate">
                     <button
                       className={`mt-4 w-full py-3 px-4 rounded-md text-white font-medium hover:cursor-pointer
                         ${fundClass.buttonClass} transition-colors duration-300`}

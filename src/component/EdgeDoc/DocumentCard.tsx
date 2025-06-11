@@ -111,7 +111,7 @@ const DocumentCard = ({
   return (
     <motion.div
       className={`bg-white p-6 rounded-lg shadow-sm border border-gray-100 mb-4 
-      reltaive ${language === 'nl' ? 'lg:h-[20rem] ' : 'lg:h-[19rem] ' }`}
+      relative ${language === 'nl' ? 'lg:h-[20rem] ' : 'lg:h-[19rem] '}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
@@ -120,15 +120,17 @@ const DocumentCard = ({
       <div className="flex-shrink-0">
         <Icon type={document.icon} imageAlt={imageAlt} />
       </div>
-      <div className="flex flex-col md:flex-row gap-4 mt-5">
-        <div className="flex-grow">
-          <h3 className="text-lg font-medium text-gray-900 mb-1">
-            {document.title}
-          </h3>
-          <p className="text-sm text-gray-600 mb-4">{document.description}</p>
-        </div>
+
+      <div className="mt-5">
+        <h3 className="text-lg font-medium text-gray-900 mb-1">
+          {document.title}
+        </h3>
+        <p className="text-sm text-gray-600 leading-snug whitespace-normal break-words">
+          {document.description}
+        </p>
       </div>
-      <div className="flex justify-between items-center relative md:top-[20%] ">
+
+      <div className="flex justify-between items-center mt-4 lg:absolute lg:bottom-6 lg:left-6 lg:right-6">
         <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded">
           PDF
         </span>
@@ -145,7 +147,7 @@ const DocumentCard = ({
               className="w-full h-full object-cover"
             />
           </div>{" "}
-            {downloadLabel}
+          {downloadLabel}
         </a>
       </div>
     </motion.div>
@@ -160,7 +162,7 @@ const DocumentCardSections = () => {
   // Define translations for English and Dutch
   const translations = {
     en: {
-      heading: "Edge documents",
+      heading: "Edge Documents",
       tabs: [
         { id: "all", label: "All Documents" },
         { id: "fund", label: "Fund Documents" },
@@ -180,7 +182,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-natural",
-            title: "Subscription forms (Natural persons)",
+            title: "Subscription Forms (Natural Persons)",
             description:
               "Complete subscription forms for individual investors looking to participate in EdgeFund opportunities.",
             icon: "person",
@@ -189,7 +191,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-bvs",
-            title: "Subscription forms (BVs)",
+            title: "Subscription Forms (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in EdgeFund investment opportunities.",
             icon: "discount_email",
@@ -198,7 +200,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund change form",
+            title: "EdgeFund Change Form",
             description:
               "Update your EdgeFund account details, investment preferences, or personal information with this change form.",
             icon: "form_submission",
@@ -216,7 +218,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-natural",
-            title: "Bond subscription (Natural persons)",
+            title: "Bond Subscription (Natural Persons)",
             description:
               "Complete subscription forms for individual investors interested in Edge Capital Bond opportunities.",
             icon: "person",
@@ -225,7 +227,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-bvs",
-            title: "Bond subscription (BVs)",
+            title: "Bond Subscription (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in Edge Capital Bond investments.",
             icon: "discount_email",
@@ -234,7 +236,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "privacy-cookies",
-            title: "Privacy and cookies policy",
+            title: "Privacy and Cookies Policy",
             description:
               "Comprehensive overview of how Edge Capital handles your personal data and information privacy.",
             icon: "security",
@@ -243,7 +245,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Data and rights",
+            title: "Data and Rights",
             description:
               "Information about your rights regarding your personal data and how to exercise those rights with Edge Capital.",
             icon: "discount_email",
@@ -254,7 +256,7 @@ const DocumentCardSections = () => {
         fund: [
           {
             id: "subscription-natural",
-            title: "Subscription forms (Natural persons)",
+            title: "Subscription Forms (Natural Persons)",
             description:
               "Complete subscription forms for individual investors looking to participate in EdgeFund opportunities.",
             icon: "person",
@@ -263,7 +265,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-bvs",
-            title: "Subscription forms (BVs)",
+            title: "Subscription Forms (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in EdgeFund investment opportunities.",
             icon: "discount_email",
@@ -281,7 +283,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund change form",
+            title: "EdgeFund Change Form",
             description:
               "Update your EdgeFund account details, investment preferences, or personal information with this change form.",
             icon: "form_submission",
@@ -292,7 +294,7 @@ const DocumentCardSections = () => {
         bond: [
           {
             id: "bond-subscription-natural",
-            title: "Bond subscription (Natural persons)",
+            title: "Bond Subscription (Natural Persons)",
             description:
               "Complete subscription forms for individual investors interested in Edge Capital Bond opportunities.",
             icon: "person",
@@ -301,7 +303,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-bvs",
-            title: "Bond subscription (BVs)",
+            title: "Bond Subscription (BVs)",
             description:
               "Subscription forms for private limited companies (BVs) interested in Edge Capital Bond investments.",
             icon: "discount_email",
@@ -321,7 +323,7 @@ const DocumentCardSections = () => {
         privacy: [
           {
             id: "privacy-cookies",
-            title: "Privacy and cookies policy",
+            title: "Privacy and Cookies Policy",
             description:
               "Comprehensive overview of how Edge Capital handles your personal data and information privacy.",
             icon: "security",
@@ -330,7 +332,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Data and rights",
+            title: "Data and Rights",
             description:
               "Information about your rights regarding your personal data and how to exercise those rights with Edge Capital.",
             icon: "discount_email",
@@ -363,7 +365,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "subscription-natural",
-            title: "Inschrijfformulieren (Natuurlijke personen)",
+            title: "Inschrijfformulieren (Natuurlijke Personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die willen deelnemen aan EdgeFund-mogelijkheden.",
             icon: "person",
@@ -381,7 +383,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund wijzigingsformulier",
+            title: "EdgeFund Wijzigingsformulier",
             description:
               "Werk uw EdgeFund-accountgegevens, investeringsvoorkeuren of persoonlijke informatie bij met dit wijzigingsformulier.",
             icon: "form_submission",
@@ -399,7 +401,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "bond-subscription-natural",
-            title: "Obligatie-inschrijving (Natuurlijke personen)",
+            title: "Obligatie-inschrijving (Natuurlijke Personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die geïnteresseerd zijn in Edge Capital-obligatiemogelijkheden.",
             icon: "person",
@@ -417,7 +419,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "privacy-cookies",
-            title: "Privacy- en cookiesbeleid",
+            title: "Privacy- en Cookiesbeleid",
             description:
               "Uitgebreid overzicht van hoe Edge Capital omgaat met uw persoonlijke gegevens en informatieprivacy.",
             icon: "security",
@@ -426,7 +428,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Gegevens en rechten",
+            title: "Gegevens en Rechten",
             description:
               "Informatie over uw rechten met betrekking tot uw persoonlijke gegevens en hoe u deze rechten kunt uitoefenen bij Edge Capital.",
             icon: "discount_email",
@@ -437,7 +439,7 @@ const DocumentCardSections = () => {
         fund: [
           {
             id: "subscription-natural",
-            title: "Inschrijfformulieren (Natuurlijke personen)",
+            title: "Inschrijfformulieren (Natuurlijke Personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die willen deelnemen aan EdgeFund-mogelijkheden.",
             icon: "person",
@@ -464,7 +466,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "edgefund-change",
-            title: "EdgeFund wijzigingsformulier",
+            title: "EdgeFund Wijzigingsformulier",
             description:
               "Werk uw EdgeFund-accountgegevens, investeringsvoorkeuren of persoonlijke informatie bij met dit wijzigingsformulier.",
             icon: "form_submission",
@@ -475,7 +477,7 @@ const DocumentCardSections = () => {
         bond: [
           {
             id: "bond-subscription-natural",
-            title: "Obligatie-inschrijving (Natuurlijke personen)",
+            title: "Obligatie-inschrijving (Natuurlijke Personen)",
             description:
               "Volledige inschrijfformulieren voor individuele beleggers die geïnteresseerd zijn in Edge Capital-obligatiemogelijkheden.",
             icon: "person",
@@ -504,7 +506,7 @@ const DocumentCardSections = () => {
         privacy: [
           {
             id: "privacy-cookies",
-            title: "Privacy- en cookiesbeleid",
+            title: "Privacy- en Cookiesbeleid",
             description:
               "Uitgebreid overzicht van hoe Edge Capital omgaat met uw persoonlijke gegevens en informatieprivacy.",
             icon: "security",
@@ -513,7 +515,7 @@ const DocumentCardSections = () => {
           },
           {
             id: "data-rights",
-            title: "Gegevens en rechten",
+            title: "Gegevens en Rechten",
             description:
               "Informatie over uw rechten met betrekking tot uw persoonlijke gegevens en hoe u deze rechten kunt uitoefenen bij Edge Capital.",
             icon: "discount_email",
@@ -555,7 +557,7 @@ const DocumentCardSections = () => {
 
   return (
     <section
-      className="py-8 w-[1550px] px-4 md:px-[5rem] bg-[#F8F9FA] max-w[1440px]"
+      className="py-8 w-full max-w-7xl mx-auto px-4 md:px-8 bg-[#F8F9FA]"
       aria-labelledby="documents-heading"
     >
       <h2 id="documents-heading" className="sr-only">
@@ -563,17 +565,16 @@ const DocumentCardSections = () => {
       </h2>
 
       {/* Tabs */}
-      <div className="flex overflow-x-scroll md:overflow-x-auto pb-4 mb-6 scrollbar-hide w-full">
-        <div className="inline-flex bg-[#F1F5F9] p-1 rounded-lg md:w-full w-[1440px]">
+      <div className="flex overflow-x-auto pb-4 mb-6 scrollbar-hide">
+        <div className="inline-flex bg-[#F1F5F9] p-1 rounded-lg min-w-full">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id as DocumentCategory)}
-              className={`px-4 py-2 text-sm font-medium rounded-md transition-colors w-[12rem] md:w-[25%] ${
-                activeTab === tab.id
+              className={`px-4 py-2 text-sm font-medium rounded-md transition-colors flex-1 whitespace-nowrap ${activeTab === tab.id
                   ? "bg-white shadow-md text-gray-900"
                   : "text-gray-500 hover:text-gray-900"
-              }`}
+                }`}
               aria-current={activeTab === tab.id ? "page" : undefined}
             >
               {tab.label}

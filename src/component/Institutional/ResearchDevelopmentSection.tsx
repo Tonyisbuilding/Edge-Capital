@@ -91,12 +91,12 @@ const ResearchDevelopmentSection = () => {
               {content.title}
             </motion.h2>
 
-            <motion.p
+            {/* <motion.p
               className="text-gray-700 mb-8 leading-relaxed md:text-[0.9rem]"
               variants={itemVariants}
             >
               {content.description}
-            </motion.p>
+            </motion.p> */}
 
             <motion.div className="space-y-2" variants={containerVariants}>
               {/* Section 1 */}

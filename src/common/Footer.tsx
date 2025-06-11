@@ -1,4 +1,5 @@
 import "./common.css";
+import { Link } from "react-router-dom";
 import { useChangeLanguageContext } from "@/context/ChangeLanguage";
 import images from "@/constant/images";
 
@@ -41,52 +42,43 @@ const Footer = () => {
             <h3>{language === "nl" ? "Home" : "Home"}</h3>
             <ul>
               <li>
-                <a href="/about">
+                <Link to="/about">
                   {language === "nl" ? "Over ons" : "About Us"}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/edge-fund">
-                  {language === "nl" ? "EdgeFund" : "EdgeFund"}
-                </a>
+                <Link to="/edge-fund">EdgeFund</Link>
               </li>
-              {/* <li><a href="/impact">Edge Impact</a></li> */}
               <li>
-                <a href="/institutional">
+                <Link to="/institutional">
                   {language === "nl" ? "Institutioneel" : "Institutional"}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact">
+                <Link to="/contact">
                   {language === "nl" ? "Contact" : "Contact"}
-                </a>
+                </Link>
               </li>
-              {/* <li><a href="/faqs">FAQ's</a></li> */}
             </ul>
           </div>
 
           <div className="footer-nav">
             <h3>{language === "nl" ? "Helpcentrum" : "Help Center"}</h3>
             <ul>
-              {/* <li>
-                <a href="/media">
-                  {language === "nl" ? "Kennisbank" : "Knowledge Base"}
-                </a>
-              </li> */}
               <li>
-                <a href="/contact">
+                <Link to="/contact">
                   {language === "nl" ? "Ondersteuning" : "Support"}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/privacy">
+                <Link to="/privacy">
                   {language === "nl" ? "Privacybeleid" : "Privacy Policy"}
-                </a>
+                </Link>
               </li>
-              {/* <li><a href="/404">404</a></li> */}
             </ul>
           </div>
         </div>
+
 
         {/* Right Section - Social */}
         <div className="footer-social">

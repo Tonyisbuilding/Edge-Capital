@@ -53,7 +53,7 @@ const Navbar = () => {
       careers: "Careers",
       contactUs: "Contact Us",
       english: "English",
-      dutch: "Dutch",
+      dutch: "Nederlands",
     },
     nl: {
       home: "Home",
@@ -74,7 +74,7 @@ const Navbar = () => {
       careers: "Vacatures",
       contactUs: "Neem Contact op",
       english: "Engels",
-      dutch: "Dutch",
+      dutch: "Nederlands",
     }
   };
 
