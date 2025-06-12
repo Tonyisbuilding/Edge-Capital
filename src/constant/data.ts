@@ -341,7 +341,7 @@ export const edgeNextTeamDutch: teamMemberCardstDataType[] = [
   },
   {
     name: "Tom Meulemans",
-    position: "Hoofd relaties en verkoop EdgeNext",
+    position: "Hoofd relaties en sales EdgeNext",
     bio: "Tom Meulemans is verantwoordelijk voor relaties en sales van het fonds. Met een sterke commerciële achtergrond en een scherp oog voor de behoeften van investeerders, speelt hij een sleutelrol in het uitbreiden en onderhouden van het netwerk van het fonds. Tom is een vast aanspreekpunt voor (potentiële) investeerders en weet complexe financiële informatie helder en toegankelijk over te brengen. Zijn persoonlijke benadering, gecombineerd met diepgaande marktkennis, zorgt voor duurzame samenwerkingen en een solide vertrouwensbasis met onze partners.",
     linkedin: "",
     image: images.landingPage.Tom,

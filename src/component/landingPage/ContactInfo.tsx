@@ -40,7 +40,7 @@ const ContactInfo = () => {
           />
           <ContactInput
             placeholder="Walserij 15-I2211 SJ, Noordwijkerhout"
-            CTAButton={ language === 'nl' ? 'Richting' : 'Get Direction'}
+            CTAButton={ language === 'nl' ? 'Locatie' : 'Get Direction'}
             icon={images.landingPage.email}
           />
         </div>

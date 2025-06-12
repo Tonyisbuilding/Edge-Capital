@@ -33,6 +33,8 @@ import presentationPreview from "../../src/assets/images/landingPage/presentatio
 import presentationVid from "../../src/assets/images/landingPage/presentation.mp4";
 import EC_businessclass from "../../src/assets/images/landingPage/EC_bussinessclass.mp4";
 import EC_businessclass2 from "../../src/assets/images/landingPage/EC_businessclass2.mp4";
+import EC_businessclassThumbnail from "../../src/assets/images/landingPage/Thumbnail.jpg";
+
 
 
 import teagan from "../../src/assets/images/landingPage/teagan.png";
@@ -167,7 +169,8 @@ const images = {
         Afm_disclaimer,
         Brush,
         EC_businessclass,
-        EC_businessclass2
+        EC_businessclass2,
+        EC_businessclassThumbnail
     },
     about:{
         herosectionforabout,

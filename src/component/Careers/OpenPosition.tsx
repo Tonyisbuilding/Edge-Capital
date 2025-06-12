@@ -140,7 +140,7 @@ const OpenPositions = () => {
             <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
               <h3 className="text-xl font-bold text-gray-800">{job.title}</h3>
               <a
-                href="#"
+  href="mailto:info@edge-capital.nl" 
                 className="text-teal-600 font-medium hover:text-teal-700 transition-colors inline-flex items-center mt-2 md:mt-0"
                 aria-label={content.applyAriaLabel(job.title)}
               >

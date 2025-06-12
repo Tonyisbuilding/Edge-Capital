@@ -2,17 +2,17 @@ import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 
 interface contactInputType {
- placeholder: string;
-CTAButton: string;
-icon: string;
+  placeholder: string;
+  CTAButton: string;
+  icon: string;
 }
 
-const ContactInput = ({placeholder,CTAButton,icon}:contactInputType) => {
+const ContactInput = ({ placeholder, CTAButton, icon }: contactInputType) => {
 
   const [isCopied, setIsCopied] = useState(false);
 
   // This is the function we wrote earlier
-  async function copyTextToClipboard(text:string) {
+  async function copyTextToClipboard(text: string) {
     if ('clipboard' in navigator) {
       return await navigator.clipboard.writeText(text);
     } else {
@@ -21,7 +21,7 @@ const ContactInput = ({placeholder,CTAButton,icon}:contactInputType) => {
   }
 
   // onClick handler function for the copy button
-  const handleCopyClick = (copyText:string) => {
+  const handleCopyClick = (copyText: string) => {
     // Asynchronously call copyTextToClipboard
     copyTextToClipboard(copyText)
       .then(() => {
@@ -39,29 +39,33 @@ const ContactInput = ({placeholder,CTAButton,icon}:contactInputType) => {
   }
 
 
-  const handleClick = (name:string)=>{
+  const handleClick = (name: string) => {
     console.log(name)
-      switch (name) {
-        case 'Subscribe':
-          console.log('hi')
-          break;
-        case 'Call Us':
-          handleCopyClick('+31 252 781 777')
-          break;
-        case 'Get Direction':
-          window.open('https://www.google.com/maps/search/?api=1&query=Walserij%2015-I%2C%202211%20SJ%20Noordwijkerhout', '_blank');
-          break;
-        default:
-          break;
-      }
+    switch (name) {
+      case 'Subscribe':
+        console.log('hi')
+        break;
+      case 'Call Us':
+        handleCopyClick('+31 252 781 777')
+        break;
+      case 'Get Direction':
+      case 'Locatie':
+
+        window.open(
+          'https://maps.app.goo.gl/vNU3NqiVvpRw1cSB8',
+          '_blank'
+        ); break;
+      default:
+        break;
+    }
   }
 
   return (
     <>
       <div className=" py-[.5rem]  relative  ">
-       <ToastContainer />
+        <ToastContainer />
         <div className=" absolute lg:top-[37%] md:top-[2.5rem] top-[1.7rem] left-[.8rem]">
-            <img src={icon} alt="" />
+          <img src={icon} alt="" />
         </div>
         <input
           type="text"
@@ -75,7 +79,7 @@ font-medium text-[#111111] pl-[3rem] h-[8vh] lg:max-h-[85px] focus:outline-none 
         md:left-[28.2rem]]">
           <button className=" bg-[#192227] text-white font-medium text-[16.88px] lg:w-[10vw] md:w-[25vw] w-[89vw] 
           lg:h-[8.5vh] md:h-[7vh] h-[8vh] rounded-xl hover:cursor-pointer lg:max-h-[75px] lg:max-w-[175px]"
-          onClick={()=>handleClick(CTAButton)}
+            onClick={() => handleClick(CTAButton)}
           >
             {CTAButton}
           </button>
