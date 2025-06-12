@@ -121,7 +121,7 @@ const ContactInformation = () => {
           emailRequired: "Email is verplicht",
           emailInvalid: "Email is ongeldig",
         },
-        successMessage: "Bericht succesvol verzonden!",
+        successMessage: "Formulier succesvol verzonden!",
       },
       imageAlt: "Onderzoeksteam dat marktgegevens analyseert",
     },
@@ -191,7 +191,7 @@ const ContactInformation = () => {
         }
 
         setSubmitSuccess(true);
-        toast.success("Form submitted successfully!");
+toast.success(content.form.successMessage);
         setFormData({
           firstName: "",
           lastName: "",
